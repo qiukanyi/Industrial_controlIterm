@@ -1,0 +1,47 @@
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Alarm system.exe.config
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Alarm system.exe
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Alarm system.pdb
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\AntdUI.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\HmExtension.Standard.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\HZH_Controls.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Newtonsoft.Json.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\NModbus4.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\QRCoder.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Buffers.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.CodeDom.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Data.OleDb.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Memory.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Numerics.Vectors.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\V8.Net.dll
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\AntdUI.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\HmExtension.Standard.pdb
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\HmExtension.Standard.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\Newtonsoft.Json.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\NModbus4.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Buffers.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.CodeDom.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Data.OleDb.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Memory.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Numerics.Vectors.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm system.csproj.AssemblyReference.cache
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm_system.Form1.resources
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm_system.Properties.Resources.resources
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm system.csproj.GenerateResource.cache
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm system.csproj.CoreCompileInputs.cache
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm sy.C4DF9427.Up2Date
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm system.exe
+D:\2024年上半年作业\工控作业\报警系统\Alarm system\obj\Debug\Alarm system.pdb

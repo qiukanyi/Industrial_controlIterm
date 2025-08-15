@@ -1,0 +1,88 @@
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\温湿度传感器.exe.config
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\温湿度传感器.exe
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\温湿度传感器.pdb
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\AntdUI.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\HmExtension.Standard.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Newtonsoft.Json.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\QRCoder.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Buffers.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.CodeDom.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Data.OleDb.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Memory.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Numerics.Vectors.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\V8.Net.dll
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\AntdUI.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\HmExtension.Standard.pdb
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\HmExtension.Standard.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\Newtonsoft.Json.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Buffers.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.CodeDom.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Data.OleDb.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Memory.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Numerics.Vectors.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.AssemblyReference.cache
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.Form1.resources
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.Properties.Resources.resources
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.GenerateResource.cache
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.CoreCompileInputs.cache
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.CopyComplete
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.exe
+E:\新建文件夹 (4)\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.pdb
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\温湿度传感器.exe.config
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\温湿度传感器.exe
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\温湿度传感器.pdb
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\AntdUI.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\HmExtension.Standard.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Newtonsoft.Json.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\QRCoder.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Buffers.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.CodeDom.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Data.OleDb.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Memory.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Numerics.Vectors.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\V8.Net.dll
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\AntdUI.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\HmExtension.Standard.pdb
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\HmExtension.Standard.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\Newtonsoft.Json.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Buffers.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.CodeDom.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Data.OleDb.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Memory.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Numerics.Vectors.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.AssemblyReference.cache
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.Form1.resources
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.Properties.Resources.resources
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.GenerateResource.cache
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.CoreCompileInputs.cache
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.csproj.Up2Date
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.exe
+E:\项目储存文件\新建文件夹\串口\温湿度传感器\obj\Debug\温湿度传感器.pdb

@@ -1,0 +1,5 @@
+E:\项目储存文件\新建文件夹\串口\测试\obj\Debug\测试.csproj.AssemblyReference.cache
+E:\项目储存文件\新建文件夹\串口\测试\obj\Debug\测试.Form1.resources
+E:\项目储存文件\新建文件夹\串口\测试\obj\Debug\测试.Properties.Resources.resources
+E:\项目储存文件\新建文件夹\串口\测试\obj\Debug\测试.csproj.GenerateResource.cache
+E:\项目储存文件\新建文件夹\串口\测试\obj\Debug\测试.csproj.CoreCompileInputs.cache

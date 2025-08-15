@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HmExtension.Standard</name>
+    </assembly>
+    <members>
+        <member name="T:HmExtension.BaseTypeExtension">
+            <summary>
+            基础类型扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Int16)">
+            <summary>
+            将short转换为字节数组
+            <example>
+            <code>
+            short s = 10;
+            byte[] bytes = s.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">shot</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Int32)">
+            <summary>
+            将int转换为字节数组
+            <example>
+            <code>
+            int i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">int</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Int64)">
+            <summary>
+            将long转换为字节数组
+            <example>
+            <code>
+            long i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">long</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Single)">
+            <summary>
+            将float转换为字节数组
+            <example>
+            <code>
+            float i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">float</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Double)">
+            <summary>
+            将double转换为字节数组
+            <example>
+            <code>
+            double i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">double</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Char)">
+            <summary>
+            将char转换为字节数组
+            <example>
+            <code>
+            char i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">char</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.Boolean)">
+            <summary>
+            将bool转换为字节数组
+            <example>
+            <code>
+            bool i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">bool</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.UInt16)">
+            <summary>
+            将ushort转换为字节数组
+            <example>
+            <code>
+            ushort i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">ushort</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.UInt32)">
+            <summary>
+            将uint转换为字节数组
+            <example>
+            <code>
+            uint i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">uint</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BaseTypeExtension.ToByte(System.UInt64)">
+            <summary>
+            将ulong转换为字节数组
+            <example>
+            <code>
+            ulong i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">ulong</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="T:HmExtension.BitmapExtension">
+            <summary>
+            图片扩展类(v1.0.0.3)
+            </summary>
+        </member>
+        <member name="M:HmExtension.BitmapExtension.ToByte(System.Drawing.Bitmap)">
+            <summary>
+            将图片转换为字节数组
+            </summary>
+            <param name="bitmap">图片对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.BitmapExtension.ToDataUrl(System.Drawing.Bitmap)">
+            <summary>
+            将图片转换为DataUrl
+            </summary>
+            <param name="bitmap">图片对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="T:HmExtension.ByteArrayExtension">
+            <summary>
+            字节数组扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToShort(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为short
+            <example>
+            <code>
+            byte[] arr = {0x01, 0x02};
+            short s = arr.ToShort();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>short</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToInt(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为int
+            <example>
+            <code>
+            byte[] arr = {0x01, 0x02,0x3,0x4};
+            int s = arr.ToInt();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>int</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToLong(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为long
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4,0x5,0x6,0x7,0x8};
+            long s = arr.ToLong();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>long</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToFloat(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为float
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            float s = arr.ToFloat();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>float</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToDouble(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为double
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4,0x5,0x6,0x7,0x8};
+            double s = arr.ToDouble();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>double</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToUShort(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为ushort
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02};
+            ushort s = arr.ToUShort();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>ushort</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToUInt(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为uint
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            uint s = arr.ToUInt();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>uint</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToULong(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为ulong
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4,0x5,0x6,0x7,0x8};
+            ulong s = arr.ToULong();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>ulong</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.GetModbusCRC(System.Byte[])">
+            <summary>
+            使用当前字节数组计算Modbus CRC
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            ushort crc = arr.GetModbusCRC();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>Modbus CRC</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.GetModbusCRCBytes(System.Byte[])">
+            <summary>
+            使用当前字节数组计算Modbus CRC,并返回字节数组
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            byte[] crc = arr.GetModbusCRCBytes();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>CRC数组</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.AppendModbusCrc(System.Byte[],System.Boolean)">
+            <summary>
+            将Modbus CRC追加到当前字节数组末尾
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            byte[] crc = arr.AppendModbusCrc();
+            // crc = {0x01,0x02,0x3,0x4,0x5,0x6}
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="isBigEndian">CRC模式,默认为BigEndian</param>
+            <returns>包含CRC的新数组</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToHexString(System.Byte[],System.String)">
+            <summary>
+            将字节数组转换为16进制字符串
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            string hex = arr.ToHexString("-"); // 01-02-03-04
+            string hex2 = arr.ToHexString(); // 01020304
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="separator">分割符,默认为空字符串</param>
+            <returns>16进制字符串</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.FromString(System.Byte[],System.Text.Encoding)">
+            <summary>
+            将字节数组转换为字符串
+            <example>
+            <code>
+            byte[] arr = {0x30,0x31,0x32,0x33};
+            string str = arr.ToString(Encoding.UTF8); // "1234"
+            string str2 = arr.ToString(); // "1234"
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="encoder">字符集编码</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToMd5(System.Byte[])">
+            <summary>
+            将字节数组转换为MD5(v1.0.0.3)
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>MD5字节数组</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToBase64(System.Byte[])">
+            <summary>
+            将字节数组转换为Base64字符串
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>Base64字符串</returns>
+        </member>
+        <member name="M:HmExtension.ByteArrayExtension.ToBitmap(System.Byte[])">
+            <summary>
+            将字节数组转换为Bitmap
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>Bitmap</returns>
+        </member>
+        <member name="T:HmExtension.CollectionExtension">
+            <summary>
+            集合扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.CollectionExtension.Remove``1(System.Collections.Generic.ICollection{``0},System.Func{``0,System.Boolean})">
+            <summary>
+            从集合中移除满足条件的元素
+            <example>
+            <code>
+            List&lt;int&gt; list = new List&lt;int&gt; {1, 2, 3, 4, 5};
+            list.Remove(x => x % 2 == 0); // 移除偶数
+            // list: {1, 3, 5}
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">集合泛型</typeparam>
+            <param name="collection">当前集合</param>
+            <param name="predicate">删除条件</param>
+        </member>
+        <member name="M:HmExtension.CollectionExtension.AddAll``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            将指定的集合添加到当前集合中
+            <example>
+            <code>
+            List&lt;int&gt; list = new List&lt;int&gt; {1, 2, 3};
+            List&lt;int&gt; list2 = new List&lt;int&gt; {4, 5, 6};
+            list.AddAll(list2);
+            // list: {1, 2, 3, 4, 5, 6}
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">集合泛型</typeparam>
+            <param name="collection">当前集合</param>
+            <param name="items">待添加集合</param>
+        </member>
+        <member name="M:HmExtension.CollectionExtension.ToString``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            将集合转换为字符串
+            <example>
+            <code>
+            List&lt;int&gt; list = new List&lt;int&gt; {1, 2, 3};
+            string str = list.ToString(''); // str=> 123
+            string str1 = list.ToString('-'); // str1=> 1-2-3
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">集合类型</typeparam>
+            <param name="collection">集合</param>
+            <param name="separator">拼接时的分隔符</param>
+            <returns>拼接后字符串</returns>
+        </member>
+        <member name="T:HmExtension.ObjectExtension">
+            <summary>
+            对象扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.ObjectExtension.Print(System.Object,System.String,System.String)">
+            <summary>
+            将对象打印到控制台
+            <example>
+            <code>
+            object obj = new object();
+            obj.Print("prefix: ","suffix"); // prefix: System.Objectsuffix
+            obj.Print("prefix: "); // prefix: System.Object
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+            <param name="prefix">前缀字符串</param>
+            <param name="suffix">后缀字符串</param>
+        </member>
+        <member name="M:HmExtension.ObjectExtension.Print(System.Object)">
+            <summary>
+            将对象打印到控制台
+            <example>
+            <code>
+            object obj = new object();
+            obj.Print(); // System.Object
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+        </member>
+        <member name="M:HmExtension.ObjectExtension.Println(System.Object,System.String,System.String)">
+            <summary>
+            将对象打印到控制台,并在末尾添加换行符
+            <example>
+            <code>
+            object obj = new object();
+            obj.Println("prefix: ","suffix"); // prefix: System.Objectsuffix\r\n
+            obj.Println("prefix: "); // prefix: System.Object\r\n
+            </code>
+            </example>
+            
+            </summary>
+            <param name="value">当前对象</param>
+            <param name="prefix">前缀字符串</param>
+            <param name="suffix">后缀字符串</param>
+        </member>
+        <member name="M:HmExtension.ObjectExtension.Println(System.Object)">
+            <summary>
+            将对象打印到控制台,并在末尾添加换行符
+            <example>
+            <code>
+            object obj = new object();
+            obj.Print(); // System.Object\r\n
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+        </member>
+        <member name="M:HmExtension.ObjectExtension.ToJson(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonConverter[])">
+             <summary>
+             将对象转换为Json字符串
+             <example>
+             <code>
+             class Student{
+                 public string Name { get; set; }
+                 public int age {get; set; }
+             }
+            
+             var stu = new Student{
+                 Name = "张三",
+                 Age = 20
+             }
+             stu.ToJson().Println(); // {"Name":"张三","Age":20}
+             stu.ToJson(Formatting.Indented).Println();
+             /*
+             {
+                 "Name": "张三",
+                 "Age": 20
+             }
+             */
+             stu.ToJson(converters: new JsonConverter[]{new StringEnumConverter()}).Println();
+             // {"Name":"张三","Age":20}
+             </code>
+             </example>
+             </summary>
+             <param name="value">当前对象</param>
+             <param name="formatting">格式化选项</param>
+             <param name="converters">Json转换器</param>
+             <returns>转换后的JSON字符串</returns>
+        </member>
+        <member name="M:HmExtension.ObjectExtension.FormatPatten(System.Object,System.String)">
+            <summary>
+            将当前对象作为参数,并使用指定的格式化字符串格式化
+            <example>
+            <code>
+            var obj = 10;
+            obj.FormatPatten("value:{}").Println(); // value:10
+            obj.FormatPatten("value:{} - {}").Println(); // value:10 - 10
+            obj.FormatPatten("{} value: {}").Println(); // 10 value: 10
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+            <param name="fromat">字符串格式</param>
+            <returns>格式化字符串</returns>
+        </member>
+        <member name="T:HmExtension.StreamExtension">
+            <summary>
+            文件扩展类(v1.0.0.3)
+            </summary>
+        </member>
+        <member name="M:HmExtension.StreamExtension.ReadAllBytes(System.IO.Stream)">
+            <summary>
+            读取流中的所有字节
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.StreamExtension.ReadAllText(System.IO.Stream,System.Text.Encoding)">
+            <summary>
+            读取流中的所有文本
+            </summary>
+            <param name="stream">当前流</param>
+            <param name="encoding">字符集编码,默认为当前系统默认编码集</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HmExtension.StreamExtension.ToMd5(System.IO.Stream)">
+            <summary>
+            对流进行MD5签名
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>签名</returns>
+        </member>
+        <member name="M:HmExtension.StreamExtension.ToMd5Hex(System.IO.Stream)">
+            <summary>
+            对流进行MD5签名
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>签名</returns>
+        </member>
+        <member name="M:HmExtension.StreamExtension.ToBase64(System.IO.Stream)">
+            <summary>
+            将流转换为Base64字符串
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>Base64字符串</returns>
+        </member>
+        <member name="T:HmExtension.StringExtension">
+            <summary>
+            字符串扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToCamelCase(System.String,System.Boolean,System.String)">
+            <summary>
+            将字符串转换为驼峰命名(大驼峰)
+            <example>
+            <code>
+            "user name".ToCamelCase(); // UserName
+            "user name".ToCamelCase(false); // userName
+            "user-name".ToCamelCase(false, "-"); // userName
+            "user_name".ToCamelCase(false, "_"); // userName
+            "last_update time".ToCamelCase(); // LastUpdateTime
+            "last_update time".ToCamelCase(false); // lastUpdateTime
+            "last_update time".ToCamelCase(false, " "); // last_updateTime
+            "last_update time".ToCamelCase(false, "_"); // last_update time
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="isUpper">是否大驼峰,默认为大驼峰,如果为false则返回小驼峰</param>
+            <param name="separator">分隔符,如果为空,将所有非字母字符视为分隔符</param>
+            <returns>新字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.Print(System.String,System.String,System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化
+            <example>
+            <code>
+            "Hello World".Print(); // 控制台输出: Hello World
+            "张三".Print("姓名: "); // 控制台输出: 姓名: 张三
+            "25".Print("年龄: ", "岁"); // 控制台输出: 年龄: 25岁
+            "{0}".Print("今天温度: ", "℃", 25); // 控制台输出: 今天温度: 25℃
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="prefix">前缀</param>
+            <param name="suffix">后缀</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.StringExtension.Print(System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化
+            <example>
+            <code>
+            "Hello World".Print(); // 控制台输出: Hello World
+            "张三".Print("姓名: "); // 控制台输出: 姓名: 张三
+            "你好: {0}".Print("张三"); // 控制台输出: 你好: 张三
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.StringExtension.Println(System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化,并在末尾添加换行符
+            <example>
+            <code>
+            "Hello World".Println(); // 控制台输出: Hello World\r\n
+            "张三".Println("姓名: "); // 控制台输出: 姓名: 张三\r\n
+            "你好: {0}".Println("张三"); // 控制台输出: 你好: 张三\r\n
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.StringExtension.Println(System.String,System.String,System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化,并在末尾添加换行符
+            <example>
+            <code>
+            "Hello World".Println(); // 控制台输出: Hello World\r\n
+            "张三".Println("姓名: "); // 控制台输出: 姓名: 张三\r\n
+            "25".Println("年龄: ", "岁"); // 控制台输出: 年龄: 25岁\r\n
+            "{0}".Println("今天温度: ", "℃", 25); // 控制台输出: 今天温度: 25℃\r\n
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="prefix">前缀</param>
+            <param name="suffix">后缀</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToBase64(System.String)">
+            <summary>
+            将字符串转换为Base64编码
+            <example>
+            <code>
+            "Hello World".ToBase64(); // SGVsbG8gV29ybGQ=
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>Base64字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToBytes(System.String,System.Text.Encoding)">
+            <summary>
+            将字符串转换为字节数组
+            <example>
+            <code>
+            "Hello World".ToBytes(); // {72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100}
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="encoder">转换编码,默认为
+            <see cref="P:System.Text.Encoding.Default">Encoding.Default</see></param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.FromHex(System.String)">
+            <summary>
+            将16进制字符串转换为字节数组
+            <example>
+            <code>
+            "48656C6C6F20576F726C64".FromHex(); // {72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100}
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.IsEmpty(System.String)">
+            <summary>
+            判断字符串是否为空字符串
+            <example>
+            <code>
+            "".IsEmpty(); // true
+            "Hello World".IsEmpty(); // false
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.IsEmptyOrWhiteSpace(System.String)">
+            <summary>
+            判断字符串是否为空字符串或仅由空白字符组成
+            <example>
+            <code>
+            "".IsEmptyOrWhiteSpace(); // true
+            "Hello World".IsEmptyOrWhiteSpace(); // false
+            "   ".IsEmptyOrWhiteSpace(); // true
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ReplaceRegex(System.String,System.String,System.String)">
+            <summary>
+            使用正则表达式替换字符串
+            <example>
+            <code>
+            "Hello World".ReplaceRegex(); // 输出: ""
+            "123abc456".ReplaceRegex(@"\d", "#"); // 输出: "###abc###"
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="pattern">正则表达式,默认为所有字符</param>
+            <param name="replacement">替换的字符串,默认为字符串</param>
+            <returns>替换后的字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.FromBase64(System.String)">
+            <summary>
+            将Base64编码的字符串转换为普通字符串
+            <example>
+            <code>
+            "SGVsbG8gV29ybGQ=".FromBase64(); // Hello World
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToMd5(System.String)">
+            <summary>
+            计算字符串的MD5值
+            <example>
+            <code>
+            "123456".ToMd5(); // e10adc3949ba59abbe56e057f20f883e
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>MD5字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.Reverse(System.String)">
+            <summary>
+            反转字符串
+            <example>
+            <code>
+            "123456".Reverse(); // 654321
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>反转后的字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToInt(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为整数
+            <example>
+            <code>
+            int i = "123".ToInt(); // 123
+            int i = "a1b2c3".ToInt(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>); // 0x1a2b3
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>整数</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToLong(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为长整数
+            <example>
+            <code>
+            long i = "123".ToLong(); // 123
+            long i = "a1b2c3".ToLong(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>); // 0x1a2b3
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>长整数</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToShort(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为short
+            <example>
+            <code>
+            short i = "123".ToShort(); // 123
+            short i = "a1b2c3".ToShort(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>); // 0x1a2b3
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>short</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToFloat(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为float
+            <example>
+            <code>
+            float i = "123.45".ToFloat(); // 123.45
+            float i = "1.2345e2".ToFloat(); // 123.45
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>float</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToDouble(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为double
+            <example>
+            <code>
+            double i = "123.45".ToDouble(); // 123.45
+            double i = "1.2345e2".ToDouble(); // 123.45
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>double</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToByte(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为byte
+            <example>
+            <code>
+            byte[] arr = "123".ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>byte</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToUShort(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为无符号整数
+            <example>
+            <code>
+            ushort i = "123".ToUShort();
+            ushort i = "a1b2c3".ToUShort(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>);
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>ushort</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToUInt(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为无符号长整数
+            <example>
+            <code>
+            uint i = "123".ToUInt();
+            uint i = "a1b2c3".ToUInt(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>);
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>uint</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToULong(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为无符号长整数
+            <example>
+            <code>
+            ulong i = "123".ToULong();
+            ulong i = "a1b2c3".ToULong(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>);
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>ulong</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.Format(System.String,System.Object[])">
+            <summary>
+            格式化字符串
+            <example>
+            <code>
+            "Hello {0}".Format("World"); // Hello World
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="args">格式化参数</param>
+            <seealso cref="M:System.String.Format(System.String,System.Object[])"/>
+            <returns>格式化字符串</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.FromJson``1(System.String,Newtonsoft.Json.JsonConverter[])">
+            <summary>
+            将JSON字符串转换为对象
+            <example >
+            <code>
+            class Student{
+                public string Name { get; set; }
+                public int Age { get; set; }
+            }
+            
+            var stu = "{\"Name\":\"张三\",\"Age\":20}".FromJson&lt;Student&gt;();
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="value">当前字符串</param>
+            <param name="converters">JSON转换器</param>
+            <returns>对象</returns>
+            <seealso cref="M:Newtonsoft.Json.JsonConvert.DeserializeObject(System.String)"/>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter"/>
+        </member>
+        <member name="M:HmExtension.StringExtension.ToQRCode(System.String,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color},System.Int32,QRCoder.QRCodeGenerator.ECCLevel,System.Boolean,System.Drawing.Bitmap,System.Int32,System.Int32,System.Nullable{System.Drawing.Color})">
+            <summary>
+            将字符串转换为QRCode二维码
+            <example>
+            <code>
+            // 将字符串转换为二维码
+            Bitmap bitmap = "http://www.baidu.com".ToQRCode();
+            // 生成一个绿色的二维码,背景色为白色
+            Bitmap bitmap = "http://www.baidu.com".ToQRCode(Color.Green, Color.White);
+            // 生成一个带有LOGO的二维码
+            Bitmap bitmap = "http://www.baidu.com".ToQRCode(icon: new Bitmap("logo.png"));
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="darkColor">暗色 二维码像素方块的颜色 一般设置为Color.Black 黑色</param>
+            <param name="lightColor">亮色 二维码的背景色 一般设置为Color.White  白色</param>
+            <param name="pixelsPerModule">生成二维码图片的像素大小,默认为5</param>
+            <param name="level">容错等级
+                <list type="bullet">
+                    <item>
+                        <term>ECCLevel.L: </term>
+                        <description>大约 7% 的错误更正能力</description>
+                    </item>
+                    <item>
+                        <term>ECCLevel.M: </term>
+                        <description>大约 15% 的错误更正能力。</description>
+                    </item>
+                    <item>
+                        <term>ECCLevel.Q: </term>
+                        <description>大约 25% 的错误更正能力。</description>
+                    </item>
+                    <item>
+                        <term>ECCLevel.H: </term>
+                        <description>大约 30% 的错误更正能力。</description>
+                    </item>
+                </list>
+            </param>
+            <param name="drawQuietZones">静止区，位于二维码某一边的空白边界,用来阻止读者获取与正在浏览的二维码无关的信息 即是否绘画二维码的空白边框区域 默认为true</param>
+            <param name="icon">二维码水印图标 默认为NULL ，加上这个二维码中间会显示一个图标</param>
+            <param name="iconSizePercent">水印图标的大小比例 ，可根据自己的喜好设置 </param>
+            <param name="iconBorderWidth">水印图标的边框</param>
+            <param name="iconBackgroundColor">水印图标的背景色</param>
+            <returns>二维码图片</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.IsDataUrl(System.String)">
+            <summary>
+            检查字符串是否是DataUrl字符串
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.FromBase64ToBytes(System.String)">
+            <summary>
+            将Base64字符串转换为字节数组
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.StringExtension.FromBitmap(System.String)">
+            <summary>
+            将DataUrl字符串转换为图片
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>图片</returns>
+            <exception cref="T:System.ArgumentException">如果字符串不是DataURL则抛出该异常</exception>
+        </member>
+    </members>
+</doc>

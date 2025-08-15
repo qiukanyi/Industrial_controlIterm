@@ -1,0 +1,150 @@
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\SerialServer.exe.config
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\SerialServer.exe
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\SerialServer.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Buffers.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Codecs.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Common.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Handlers.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Transport.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Buffers.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Collections.Immutable.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Memory.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Numerics.Vectors.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.ValueTuple.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Buffers.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Codecs.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Common.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Handlers.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\DotNetty.Transport.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Buffers.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Collections.Immutable.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Memory.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Numerics.Vectors.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.ValueTuple.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.csproj.AssemblyReference.cache
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.Properties.Resources.resources
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.csproj.GenerateResource.cache
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.csproj.CoreCompileInputs.cache
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialSe.77F055CE.Up2Date
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.exe
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\AntdUI.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\HmExtension.Commons.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\HmExtension.Standard.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\QRCoder.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.CodeDom.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Data.OleDb.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Drawing.Common.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\V8.Net.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\AntdUI.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\HmExtension.Commons.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\HmExtension.Standard.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\HmExtension.Standard.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.CodeDom.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Data.OleDb.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Drawing.Common.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\bin\Debug\System.Drawing.Common.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\SerialServer\obj\Debug\SerialServer.Form1.resources
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\SerialServer.exe.config
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\SerialServer.exe
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\SerialServer.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\AntdUI.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Buffers.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Codecs.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Common.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Handlers.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Transport.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\HmExtension.Commons.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\HmExtension.Standard.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Options.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Newtonsoft.Json.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\QRCoder.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Buffers.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.CodeDom.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Collections.Immutable.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Data.OleDb.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Drawing.Common.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Memory.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Numerics.Vectors.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.ValueTuple.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\V8.Net.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\AntdUI.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Buffers.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Codecs.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Common.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Handlers.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\DotNetty.Transport.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\HmExtension.Commons.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\HmExtension.Standard.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\HmExtension.Standard.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Options.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\Newtonsoft.Json.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Buffers.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.CodeDom.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Collections.Immutable.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Data.OleDb.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Drawing.Common.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Drawing.Common.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Memory.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Numerics.Vectors.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\bin\Debug\System.ValueTuple.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.csproj.AssemblyReference.cache
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.Form1.resources
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.Properties.Resources.resources
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.csproj.GenerateResource.cache
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.csproj.CoreCompileInputs.cache
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialSe.77F055CE.Up2Date
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.exe
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\SerialServer\obj\Debug\SerialServer.pdb

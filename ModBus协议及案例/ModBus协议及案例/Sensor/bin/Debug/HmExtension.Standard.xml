@@ -1,0 +1,3149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HmExtension.Standard</name>
+    </assembly>
+    <members>
+        <member name="T:HmExtension.Standard.Commons.Point`1">
+            <summary>
+            点
+            </summary>
+            <typeparam name="T">表示坐标值的类型,必须为数字</typeparam>
+        </member>
+        <member name="P:HmExtension.Standard.Commons.Point`1.X">
+            <summary>
+            X坐标
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Commons.Point`1.Y">
+            <summary>
+            Y坐标
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Commons.Point`1.#ctor">
+            <summary>
+            初始化一个新的实例
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Commons.Point`1.#ctor(`0,`0)">
+            <summary>
+            初始化一个新的实例
+            </summary>
+            <param name="x">X坐标</param>
+            <param name="y">Y坐标</param>
+        </member>
+        <member name="M:HmExtension.Standard.Commons.Point`1.GetDistance(HmExtension.Standard.Commons.Point{`0})">
+            <summary>
+            获取两点之间的距离
+            </summary>
+            <param name="point">目标点</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.Commons.Point`1.GetDistance(`0,`0)">
+            <summary>
+            获取两点之间的距离
+            </summary>
+            <param name="x">横坐标</param>
+            <param name="y">纵坐标</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.Commons.Point`1.GetAngle(HmExtension.Standard.Commons.Point{`0})">
+            <summary>
+            获取两点之间的角度
+            </summary>
+            <param name="point">目标点</param>
+            <returns>角度</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Commons.Point`1.GetAngle(`0,`0)">
+            <summary>
+            获取两点之间的角度
+            </summary>
+            <param name="x">横坐标</param>
+            <param name="y">纵坐标</param>
+            <returns></returns>
+        </member>
+        <member name="T:HmExtension.Standard.Events.KeyEventArgs">
+            <summary>
+            按键事件参数
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.EventType">
+            <summary>
+            事件类型
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventArgs.Count">
+            <summary>
+            按键次数
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventArgs.IsExtend">
+            <summary>
+            是否是扩展键(如功能键,数字键盘上的键)
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventArgs.IsUp">
+            <summary>
+            是否抬起
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventArgs.IsDown">
+            <summary>
+            是否按下
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventArgs.Code">
+            <summary>
+            虚拟按键代码。 代码必须是 1 到 254 范围内的值。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventArgs.ScanCode">
+            <summary>
+            按键的硬件扫描代码。
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsLeftAlt">
+            <summary>
+            是否按下左ALT键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsRightAlt">
+            <summary>
+            是否按下右ALT键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsAlt">
+            <summary>
+            是否按下ALT键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsLeftCtrl">
+            <summary>
+            是否按下左Ctrl键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsRightCtrl">
+            <summary>
+            是否按下右Ctrl键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsCtrl">
+            <summary>
+            是否按下Ctrl键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsLeftShift">
+            <summary>
+            是否按下左Shift键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsRightShift">
+            <summary>
+            是否按下右Shift键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsShift">
+            <summary>
+            是否按下Shift键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsWin">
+            <summary>
+            是否是系统键
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.Events.KeyEventArgs.IsApps">
+            <summary>
+            是否按下应用键
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.Events.KeyEventType">
+            <summary>
+            按键事件类型
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventType.KEYDOWN">
+            <summary>
+            按下一个键 
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventType.KEYUP">
+            <summary>
+            释放一个键
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventType.SYSKEYDOWN">
+            <summary>
+            当用户释放一个键同时ALT 键还按着时提交此消息给拥有焦点的窗口 
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.KeyEventType.SYSKEYUP">
+            <summary>
+            当用户释放一个键同时ALT 键还按着时提交此消息给拥有焦点的窗口 
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.Events.MessageEventArgs">
+            <summary>
+            系统消息事件
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MessageEventArgs.IsDelete">
+            <summary>
+            指定是否已从队列中删除消息。 此参数的取值可为下列值之一
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MessageEventArgs.Hwnd">
+            <summary>
+            其窗口过程接收消息的窗口的句柄。 当消息是线程消息时，此成员为 NULL 。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MessageEventArgs.Message">
+            <summary>
+            消息的标识符。 应用程序只能使用低字;高字由系统保留。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MessageEventArgs.Time">
+            <summary>
+            消息的发布时间。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MessageEventArgs.Point">
+            <summary>
+            发布消息时的光标位置（以屏幕坐标表示）。
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.Events.MouseEventArgs">
+            <summary>
+            鼠标事件参数
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.EventType">
+            <summary>
+            事件类型
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Point">
+            <summary>
+            鼠标坐标
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Hwnd">
+            <summary>
+             窗口的句柄，该窗口将接收与鼠标事件对应的鼠标消息。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.HitTestCode">
+            <summary>
+            命中测试值
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Delta">
+            <summary>
+            滚轮滚动量
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Clicks">
+            <summary>
+            点击次数
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Button">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Timestamp">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.ExtraInfo">
+            <summary>
+            附加信息
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.Injected">
+            <summary>
+            是否注入
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.MouseEventArgs.LowerIlInjected">
+            <summary>
+            是否低完整性级别注入
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Events.MouseEventArgs.#ctor(System.Int32,HmExtension.Standard.WindowApi.MouseHook.MsllHookStruct)">
+            <summary>
+            初始化一个新的实例
+            </summary>
+            <param name="msgType">事件类型</param>
+            <param name="mhs">钩子数据</param>
+        </member>
+        <member name="M:HmExtension.Standard.Events.MouseEventArgs.#ctor(System.Int32,HmExtension.Standard.WindowApi.MouseHook.MouseHookStruct)">
+            <summary>
+            初始化一个新的实例
+            </summary>
+            <param name="msgType">事件类型</param>
+            <param name="mhs">钩子数据</param>
+        </member>
+        <member name="M:HmExtension.Standard.Events.MouseEventArgs.#ctor(HmExtension.Standard.Events.MouseEventType,HmExtension.Standard.Commons.Point{System.Int32},System.Int32,System.Int32,HmExtension.Standard.Events.MouseButton,System.Int32,System.UInt32,System.Boolean,System.Boolean,HmExtension.Standard.Events.HitTest,System.Int32)">
+            <summary>
+            初始化一个新的实例
+            </summary>
+            <param name="eventType">事件类型</param>
+            <param name="point">鼠标坐标</param>
+            <param name="delta">滚轮滚动量</param>
+            <param name="clicks">点击次数</param>
+            <param name="button">鼠标按钮</param>
+            <param name="timestamp">事件</param>
+            <param name="extraInfo">额外信息</param>
+            <param name="injected">是否注入</param>
+            <param name="lowerIlInjected">是否低完整性级别注入</param>
+            <param name="hitTestCode">命中测试类型</param>
+            <param name="hwnd">窗口句柄</param>
+        </member>
+        <member name="T:HmExtension.Standard.Events.HitTest">
+            <summary>
+            命中测试值
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.NONE">
+            <summary>
+            无效
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTBORDER">
+            <summary>
+            在没有大小调整边框的窗口边框中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTBOTTOM">
+            <summary>
+            在可调整大小的窗口的下水平边框中（用户可以单击鼠标以垂直调整窗口大小）
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTBOTTOMLEFT">
+            <summary>
+            在可调整大小的窗口的边框左下角（用户可以单击鼠标以对角线调整窗口大小）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTBOTTOMRIGHT">
+            <summary>
+            在可调整大小的窗口的边框右下角（用户可以单击鼠标以对角线调整窗口大小）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTCAPTION">
+            <summary>
+            在标题栏中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTCLIENT">
+            <summary>
+            在工作区中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTCLOSE">
+            <summary>
+            在“关闭”按钮中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTERROR">
+            <summary>
+            在屏幕背景上或窗口之间的分割线上（与 HTNOWHERE 相同，只是 DefWindowProc 函数会生成系统蜂鸣音以指示错误）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTGROWBOX">
+            <summary>
+            在大小框中（与 HTSIZE 相同）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTHELP">
+            <summary>
+            在“帮助”按钮中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTHSCROLL">
+            <summary>
+            在水平滚动条中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTLEFT">
+            <summary>
+            在可调整大小的窗口的左边框中（用户可以单击鼠标以水平调整窗口大小）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTMAXBUTTON">
+            <summary>
+            在“最大化”按钮中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTMENU">
+            <summary>
+            在菜单中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTMINBUTTON">
+            <summary>
+            在“最小化”按钮中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTNOWHERE">
+            <summary>
+            在屏幕背景上，或在窗口之间的分隔线上。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTSYSMENU">
+            <summary>
+            在窗口菜单或子窗口的关闭按钮中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTREDUCE">
+            <summary>
+            在“最小化”按钮中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTRIGHT">
+            <summary>
+            在可调整大小的窗口的右左边框中（用户可以单击鼠标以水平调整窗口大小）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTSIZE">
+            <summary>
+            在大小框中（与 HTGROWBOX 相同）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTTOP">
+            <summary>
+            在窗口的上水平边框中。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTTOPLEFT">
+            <summary>
+            在窗口边框的左上角。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTTOPRIGHT">
+            <summary>
+            在窗口边框的右上角。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTTRANSPARENT">
+            <summary>
+            在同一线程当前由另一个窗口覆盖的窗口中（消息将发送到同一线程中的基础窗口，直到其中一个窗口返回不是 HTTRANSPARENT 的代码）。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTVSCROLL">
+            <summary>
+            在垂直滚动条中
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.Events.HitTest.HTZOOM">
+            <summary>
+            在最大化按钮中
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.BaseTypeExtension">
+            <summary>
+            基础类型扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Int16)">
+            <summary>
+            将short转换为字节数组
+            <example>
+            <code>
+            short s = 10;
+            byte[] bytes = s.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">shot</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Int32)">
+            <summary>
+            将int转换为字节数组
+            <example>
+            <code>
+            int i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">int</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Int64)">
+            <summary>
+            将long转换为字节数组
+            <example>
+            <code>
+            long i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">long</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Single)">
+            <summary>
+            将float转换为字节数组
+            <example>
+            <code>
+            float i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">float</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Double)">
+            <summary>
+            将double转换为字节数组
+            <example>
+            <code>
+            double i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">double</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Char)">
+            <summary>
+            将char转换为字节数组
+            <example>
+            <code>
+            char i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">char</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.Boolean)">
+            <summary>
+            将bool转换为字节数组
+            <example>
+            <code>
+            bool i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">bool</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.UInt16)">
+            <summary>
+            将ushort转换为字节数组
+            <example>
+            <code>
+            ushort i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">ushort</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.UInt32)">
+            <summary>
+            将uint转换为字节数组
+            <example>
+            <code>
+            uint i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">uint</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BaseTypeExtension.ToByte(System.UInt64)">
+            <summary>
+            将ulong转换为字节数组
+            <example>
+            <code>
+            ulong i = 10;
+            byte[] bytes = i.ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">ulong</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.BitmapExtension">
+            <summary>
+            图片扩展类(v1.0.0.3)
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BitmapExtension.ToByte(System.Drawing.Bitmap)">
+            <summary>
+            将图片转换为字节数组
+            </summary>
+            <param name="bitmap">图片对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.BitmapExtension.ToDataUrl(System.Drawing.Bitmap)">
+            <summary>
+            将图片转换为DataUrl
+            </summary>
+            <param name="bitmap">图片对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.ByteArrayExtension">
+            <summary>
+            字节数组扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToShort(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为short
+            <example>
+            <code>
+            byte[] arr = {0x01, 0x02};
+            short s = arr.ToShort();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>short</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToInt(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为int
+            <example>
+            <code>
+            byte[] arr = {0x01, 0x02,0x3,0x4};
+            int s = arr.ToInt();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>int</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToLong(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为long
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4,0x5,0x6,0x7,0x8};
+            long s = arr.ToLong();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>long</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToFloat(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为float
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            float s = arr.ToFloat();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>float</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToDouble(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为double
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4,0x5,0x6,0x7,0x8};
+            double s = arr.ToDouble();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>double</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToUShort(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为ushort
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02};
+            ushort s = arr.ToUShort();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>ushort</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToUInt(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为uint
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            uint s = arr.ToUInt();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>uint</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToULong(System.Byte[],System.Int32)">
+            <summary>
+            将字节数组转换为ulong
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4,0x5,0x6,0x7,0x8};
+            ulong s = arr.ToULong();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="startIndex">起始位置,默认为0</param>
+            <returns>ulong</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.GetModbusCRC(System.Byte[])">
+            <summary>
+            使用当前字节数组计算Modbus CRC
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            ushort crc = arr.GetModbusCRC();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>Modbus CRC</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.GetModbusCRCBytes(System.Byte[])">
+            <summary>
+            使用当前字节数组计算Modbus CRC,并返回字节数组
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            byte[] crc = arr.GetModbusCRCBytes();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>CRC数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.AppendModbusCrc(System.Byte[],System.Boolean)">
+            <summary>
+            将Modbus CRC追加到当前字节数组末尾
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            byte[] crc = arr.AppendModbusCrc();
+            // crc = {0x01,0x02,0x3,0x4,0x5,0x6}
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="isBigEndian">CRC模式,默认为BigEndian</param>
+            <returns>包含CRC的新数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToHexString(System.Byte[],System.String)">
+            <summary>
+            将字节数组转换为16进制字符串
+            <example>
+            <code>
+            byte[] arr = {0x01,0x02,0x3,0x4};
+            string hex = arr.ToHexString("-"); // 01-02-03-04
+            string hex2 = arr.ToHexString(); // 01020304
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="separator">分割符,默认为空字符串</param>
+            <returns>16进制字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.FromString(System.Byte[],System.Text.Encoding)">
+            <summary>
+            将字节数组转换为字符串
+            <example>
+            <code>
+            byte[] arr = {0x30,0x31,0x32,0x33};
+            string str = arr.ToString(Encoding.UTF8); // "1234"
+            string str2 = arr.ToString(); // "1234"
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字节数组</param>
+            <param name="encoder">字符集编码</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToMd5(System.Byte[])">
+            <summary>
+            将字节数组转换为MD5(v1.0.0.3)
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>MD5字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToBase64(System.Byte[])">
+            <summary>
+            将字节数组转换为Base64字符串
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>Base64字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ByteArrayExtension.ToBitmap(System.Byte[])">
+            <summary>
+            将字节数组转换为Bitmap
+            </summary>
+            <param name="value">当前字节数组</param>
+            <returns>Bitmap</returns>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.CollectionExtension">
+            <summary>
+            集合扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.CollectionExtension.Remove``1(System.Collections.Generic.ICollection{``0},System.Func{``0,System.Boolean})">
+            <summary>
+            从集合中移除满足条件的元素
+            <example>
+            <code>
+            List&lt;int&gt; list = new List&lt;int&gt; {1, 2, 3, 4, 5};
+            list.Remove(x => x % 2 == 0); // 移除偶数
+            // list: {1, 3, 5}
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">集合泛型</typeparam>
+            <param name="collection">当前集合</param>
+            <param name="predicate">删除条件</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.CollectionExtension.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            将指定的集合添加到当前集合中
+            <example>
+            <code>
+            List&lt;int&gt; list = new List&lt;int&gt; {1, 2, 3};
+            List&lt;int&gt; list2 = new List&lt;int&gt; {4, 5, 6};
+            list.AddRange(list2);
+            // list: {1, 2, 3, 4, 5, 6}
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">集合泛型</typeparam>
+            <param name="collection">当前集合</param>
+            <param name="items">待添加集合</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.CollectionExtension.AddRange``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.ICollection{``0})">
+            <summary>
+            将指定的集合添加到当前集合中
+            </summary>
+            <typeparam name="T">集合泛型</typeparam>
+            <param name="collection">当前集合</param>
+            <param name="items">待添加集合</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.CollectionExtension.ToString``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            将集合转换为字符串
+            <example>
+            <code>
+            List&lt;int&gt; list = new List&lt;int&gt; {1, 2, 3};
+            string str = list.ToString(''); // str=> 123
+            string str1 = list.ToString('-'); // str1=> 1-2-3
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">集合类型</typeparam>
+            <param name="collection">集合</param>
+            <param name="separator">拼接时的分隔符</param>
+            <returns>拼接后字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.CollectionExtension.Join``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            将集合中的元素转换为字符串,并使用指定的分隔符拼接
+            </summary>
+            <example>
+            <code>
+            var list = new List&lt;int&gt; {1, 2, 3, 4, 5};
+            list.Join().Println(); //输出:  1,2,3,4,5
+            </code>
+            </example>
+            <typeparam name="T"></typeparam>
+            <param name="collection">集合</param>
+            <param name="separator">分隔符</param>
+            <returns></returns>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.ObjectExtension">
+            <summary>
+            对象扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.Print(System.Object,System.String,System.String)">
+            <summary>
+            将对象打印到控制台
+            <example>
+            <code>
+            object obj = new object();
+            obj.Print("prefix: ","suffix"); // prefix: System.Objectsuffix
+            obj.Print("prefix: "); // prefix: System.Object
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+            <param name="prefix">前缀字符串</param>
+            <param name="suffix">后缀字符串</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.Print(System.Object)">
+            <summary>
+            将对象打印到控制台
+            <example>
+            <code>
+            object obj = new object();
+            obj.Print(); // System.Object
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.Println(System.Object,System.String,System.String)">
+            <summary>
+            将对象打印到控制台,并在末尾添加换行符
+            <example>
+            <code>
+            object obj = new object();
+            obj.Println("prefix: ","suffix"); // prefix: System.Objectsuffix\r\n
+            obj.Println("prefix: "); // prefix: System.Object\r\n
+            </code>
+            </example>
+            
+            </summary>
+            <param name="value">当前对象</param>
+            <param name="prefix">前缀字符串</param>
+            <param name="suffix">后缀字符串</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.Println(System.Object)">
+            <summary>
+            将对象打印到控制台,并在末尾添加换行符
+            <example>
+            <code>
+            object obj = new object();
+            obj.Print(); // System.Object\r\n
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.ToJson(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonConverter[])">
+             <summary>
+             将对象转换为Json字符串
+             <example>
+             <code>
+             class Student{
+                 public string Name { get; set; }
+                 public int age {get; set; }
+             }
+            
+             var stu = new Student{
+                 Name = "张三",
+                 Age = 20
+             }
+             stu.ToJson().Println(); // {"Name":"张三","Age":20}
+             stu.ToJson(Formatting.Indented).Println();
+             /*
+             {
+                 "Name": "张三",
+                 "Age": 20
+             }
+             */
+             stu.ToJson(converters: new JsonConverter[]{new StringEnumConverter()}).Println();
+             // {"Name":"张三","Age":20}
+             </code>
+             </example>
+             </summary>
+             <param name="value">当前对象</param>
+             <param name="formatting">格式化选项</param>
+             <param name="converters">Json转换器</param>
+             <returns>转换后的JSON字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.FormatPatten(System.Object,System.String)">
+            <summary>
+            将当前对象作为参数,并使用指定的格式化字符串格式化
+            <example>
+            <code>
+            // 第一种使用方式: 将当前对象作为参数,并使用指定的格式化字符串格式化
+            var obj = 10;
+            obj.FormatPatten("value:{}").Println(); // value:10
+            obj.FormatPatten("value:{} - {}").Println(); // value:10 - 10
+            obj.FormatPatten("{} value: {}").Println(); // 10 value: 10
+            // 第二种使用方式: 将当前对象中的字段或属性作为参数,并使用指定的格式化字符串格式化
+            class Student{
+                public string Name { get; set; }
+                public int Age;
+            }
+            var stu = new Student{Name="张三",Age=20};
+            stu.FormatPatten("name:{Name} age:{Age}").Println(); // name:张三
+            
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前对象</param>
+            <param name="fromat">字符串格式</param>
+            <returns>格式化字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.GetPropertyValue``1(System.Object,System.String)">
+             <summary>
+             获取对象的属性值
+             <example>
+             <code>
+             class Student{
+                 public string Name { get; set; }
+                 public int Age { get; set; }
+             }
+            
+             var stu = new Student{Name="张三",Age=20};
+             stu.GetPropertyValue&lt;string&gt;("Name").Println(); // 控制台输出: 张三
+             stu.GetPropertyValue&lt;int&gt;("Age").Println(); // 控制台输出: 20
+             </code>
+             </example>
+             </summary>
+             <param name="obj">当前对象</param>
+             <param name="propertyName">属性名称</param>
+             <typeparam name="T">属性值类型</typeparam>
+             <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.GetFieldValue``1(System.Object,System.String)">
+             <summary>
+             获取对象的字段值
+             <example>
+             <code>
+             class Student{
+                 public string Name ;
+                 public int Age ;
+             }
+            
+             var stu = new Student{Name="张三",Age=20};
+             stu.GetFieldValue&lt;string&gt;("Name").Println(); // 控制台输出: 张三
+             stu.GetFieldValue&lt;int&gt;("Age").Println(); // 控制台输出: 20
+             </code>
+             </example>
+             </summary>
+             <typeparam name="T">字段值类型</typeparam>
+             <param name="obj">当前对象</param>
+             <param name="fieldName">字段名称</param>
+             <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.GetPropertyOrFieldValue``1(System.Object,System.String)">
+             <summary>
+             获取对象的属性或字段值
+             <example>
+             <code>
+             class Student{
+                 public string Name {get;set;}
+                 public int Age ;
+             }
+            
+             var stu = new Student{Name="张三",Age=20};
+             stu.GetPropertyOrFieldValue&lt;string&gt;("Name").Println(); // 控制台输出: 张三
+             stu.GetPropertyOrFieldValue&lt;int&gt;("Age").Println(); // 控制台输出: 20
+             </code>
+             </example>
+             </summary>
+             <param name="obj">当前对象</param>
+             <param name="name">字段或属性名称</param>
+             <typeparam name="T">值类型</typeparam>
+             <returns></returns>
+             <exception cref="T:System.ArgumentException">字段或属性不存在时</exception>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.SetPropertyValue(System.Object,System.String,System.Object)">
+            <summary>
+            设置对象的属性值
+            </summary>
+            <param name="obj">当前对象</param>
+            <param name="propertyName">属性名称</param>
+            <param name="value">属性值</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.SetFieldValue(System.Object,System.String,System.Object)">
+            <summary>
+            设置对象的字段值
+            </summary>
+            <param name="obj">当前对象</param>
+            <param name="fieldName">字段名称</param>
+            <param name="value">字段值</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.ObjectExtension.SetPropertyOrFieldValue(System.Object,System.String,System.Object)">
+            <summary>
+            设置对象的属性或字段值
+            </summary>
+            <param name="obj">当前对象</param>
+            <param name="name">字段或属性名称</param>
+            <param name="value">字段或属性值</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.StreamExtension">
+            <summary>
+            文件扩展类(v1.0.0.3)
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StreamExtension.ReadAllBytes(System.IO.Stream)">
+            <summary>
+            读取流中的所有字节
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StreamExtension.ReadAllText(System.IO.Stream,System.Text.Encoding)">
+            <summary>
+            读取流中的所有文本
+            </summary>
+            <param name="stream">当前流</param>
+            <param name="encoding">字符集编码,默认为当前系统默认编码集</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StreamExtension.ToMd5(System.IO.Stream)">
+            <summary>
+            对流进行MD5签名
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>签名</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StreamExtension.ToMd5Hex(System.IO.Stream)">
+            <summary>
+            对流进行MD5签名
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>签名</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StreamExtension.ToBase64(System.IO.Stream)">
+            <summary>
+            将流转换为Base64字符串
+            </summary>
+            <param name="stream">当前流</param>
+            <returns>Base64字符串</returns>
+        </member>
+        <member name="T:HmExtension.Standard.Extensions.StringExtension">
+            <summary>
+            字符串扩展类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToCamelCase(System.String,System.Boolean,System.String)">
+            <summary>
+            将字符串转换为驼峰命名(大驼峰)
+            <example>
+            <code>
+            "user name".ToCamelCase(); // UserName
+            "user name".ToCamelCase(false); // userName
+            "user-name".ToCamelCase(false, "-"); // userName
+            "user_name".ToCamelCase(false, "_"); // userName
+            "last_update time".ToCamelCase(); // LastUpdateTime
+            "last_update time".ToCamelCase(false); // lastUpdateTime
+            "last_update time".ToCamelCase(false, " "); // last_updateTime
+            "last_update time".ToCamelCase(false, "_"); // last_update time
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="isUpper">是否大驼峰,默认为大驼峰,如果为false则返回小驼峰</param>
+            <param name="separator">分隔符,如果为空,将所有非字母字符视为分隔符</param>
+            <returns>新字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.Print(System.String,System.String,System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化
+            <example>
+            <code>
+            "Hello World".Print(); // 控制台输出: Hello World
+            "张三".Print("姓名: "); // 控制台输出: 姓名: 张三
+            "25".Print("年龄: ", "岁"); // 控制台输出: 年龄: 25岁
+            "{0}".Print("今天温度: ", "℃", 25); // 控制台输出: 今天温度: 25℃
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="prefix">前缀</param>
+            <param name="suffix">后缀</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.Print(System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化
+            <example>
+            <code>
+            "Hello World".Print(); // 控制台输出: Hello World
+            "张三".Print("姓名: "); // 控制台输出: 姓名: 张三
+            "你好: {0}".Print("张三"); // 控制台输出: 你好: 张三
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.Println(System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化,并在末尾添加换行符
+            <example>
+            <code>
+            "Hello World".Println(); // 控制台输出: Hello World\r\n
+            "张三".Println("姓名: "); // 控制台输出: 姓名: 张三\r\n
+            "你好: {0}".Println("张三"); // 控制台输出: 你好: 张三\r\n
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.Println(System.String,System.String,System.String,System.Object[])">
+            <summary>
+            将字符串输出到控制台,支持格式化,并在末尾添加换行符
+            <example>
+            <code>
+            "Hello World".Println(); // 控制台输出: Hello World\r\n
+            "张三".Println("姓名: "); // 控制台输出: 姓名: 张三\r\n
+            "25".Println("年龄: ", "岁"); // 控制台输出: 年龄: 25岁\r\n
+            "{0}".Println("今天温度: ", "℃", 25); // 控制台输出: 今天温度: 25℃\r\n
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="prefix">前缀</param>
+            <param name="suffix">后缀</param>
+            <param name="args">格式化参数,如果传递了该参数,则自动将字符串视为格式化字符串</param>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToBase64(System.String)">
+            <summary>
+            将字符串转换为Base64编码
+            <example>
+            <code>
+            "Hello World".ToBase64(); // SGVsbG8gV29ybGQ=
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>Base64字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToBytes(System.String,System.Text.Encoding)">
+            <summary>
+            将字符串转换为字节数组
+            <example>
+            <code>
+            "Hello World".ToBytes(); // {72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100}
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="encoder">转换编码,默认为
+            <see cref="P:System.Text.Encoding.Default">Encoding.Default</see></param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.FromHex(System.String)">
+            <summary>
+            将16进制字符串转换为字节数组
+            <example>
+            <code>
+            "48656C6C6F20576F726C64".FromHex(); // {72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100}
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.IsEmpty(System.String)">
+            <summary>
+            判断字符串是否为空字符串
+            <example>
+            <code>
+            "".IsEmpty(); // true
+            "Hello World".IsEmpty(); // false
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.IsEmptyOrWhiteSpace(System.String)">
+            <summary>
+            判断字符串是否为空字符串或仅由空白字符组成
+            <example>
+            <code>
+            "".IsEmptyOrWhiteSpace(); // true
+            "Hello World".IsEmptyOrWhiteSpace(); // false
+            "   ".IsEmptyOrWhiteSpace(); // true
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ReplaceRegex(System.String,System.String,System.String)">
+            <summary>
+            使用正则表达式替换字符串
+            <example>
+            <code>
+            "Hello World".ReplaceRegex(); // 输出: ""
+            "123abc456".ReplaceRegex(@"\d", "#"); // 输出: "###abc###"
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="pattern">正则表达式,默认为所有字符</param>
+            <param name="replacement">替换的字符串,默认为字符串</param>
+            <returns>替换后的字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.FromBase64(System.String)">
+            <summary>
+            将Base64编码的字符串转换为普通字符串
+            <example>
+            <code>
+            "SGVsbG8gV29ybGQ=".FromBase64(); // Hello World
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToMd5(System.String)">
+            <summary>
+            计算字符串的MD5值
+            <example>
+            <code>
+            "123456".ToMd5(); // e10adc3949ba59abbe56e057f20f883e
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>MD5字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.Reverse(System.String)">
+            <summary>
+            反转字符串
+            <example>
+            <code>
+            "123456".Reverse(); // 654321
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>反转后的字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToInt(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为整数
+            <example>
+            <code>
+            int i = "123".ToInt(); // 123
+            int i = "a1b2c3".ToInt(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>); // 0x1a2b3
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>整数</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToLong(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为长整数
+            <example>
+            <code>
+            long i = "123".ToLong(); // 123
+            long i = "a1b2c3".ToLong(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>); // 0x1a2b3
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>长整数</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToShort(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为short
+            <example>
+            <code>
+            short i = "123".ToShort(); // 123
+            short i = "a1b2c3".ToShort(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>); // 0x1a2b3
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>short</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToFloat(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为float
+            <example>
+            <code>
+            float i = "123.45".ToFloat(); // 123.45
+            float i = "1.2345e2".ToFloat(); // 123.45
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>float</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToDouble(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为double
+            <example>
+            <code>
+            double i = "123.45".ToDouble(); // 123.45
+            double i = "1.2345e2".ToDouble(); // 123.45
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>double</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToByte(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为byte
+            <example>
+            <code>
+            byte[] arr = "123".ToByte();
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>byte</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToUShort(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为无符号整数
+            <example>
+            <code>
+            ushort i = "123".ToUShort();
+            ushort i = "a1b2c3".ToUShort(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>);
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>ushort</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToUInt(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为无符号长整数
+            <example>
+            <code>
+            uint i = "123".ToUInt();
+            uint i = "a1b2c3".ToUInt(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>);
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>uint</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToULong(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            将字符串转换为无符号长整数
+            <example>
+            <code>
+            ulong i = "123".ToULong();
+            ulong i = "a1b2c3".ToULong(<see cref="F:System.Globalization.NumberStyles.HexNumber">NumberStyles.HexNumber</see>);
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="style"> 数字格式</param>
+            <returns>ulong</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.Format(System.String,System.Object[])">
+            <summary>
+            格式化字符串
+            <example>
+            <code>
+            "Hello {0}".Format("World"); // Hello World
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="args">格式化参数</param>
+            <seealso cref="M:System.String.Format(System.String,System.Object[])"/>
+            <returns>格式化字符串</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.FromJson``1(System.String,Newtonsoft.Json.JsonConverter[])">
+            <summary>
+            将JSON字符串转换为对象
+            <example >
+            <code>
+            class Student{
+                public string Name { get; set; }
+                public int Age { get; set; }
+            }
+            
+            var stu = "{\"Name\":\"张三\",\"Age\":20}".FromJson&lt;Student&gt;();
+            </code>
+            </example>
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="value">当前字符串</param>
+            <param name="converters">JSON转换器</param>
+            <returns>对象</returns>
+            <seealso cref="M:Newtonsoft.Json.JsonConvert.DeserializeObject(System.String)"/>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter"/>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.ToQRCode(System.String,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color},System.Int32,QRCoder.QRCodeGenerator.ECCLevel,System.Boolean,System.Drawing.Bitmap,System.Int32,System.Int32,System.Nullable{System.Drawing.Color})">
+            <summary>
+            将字符串转换为QRCode二维码
+            <example>
+            <code>
+            // 将字符串转换为二维码
+            Bitmap bitmap = "http://www.baidu.com".ToQRCode();
+            // 生成一个绿色的二维码,背景色为白色
+            Bitmap bitmap = "http://www.baidu.com".ToQRCode(Color.Green, Color.White);
+            // 生成一个带有LOGO的二维码
+            Bitmap bitmap = "http://www.baidu.com".ToQRCode(icon: new Bitmap("logo.png"));
+            </code>
+            </example>
+            </summary>
+            <param name="value">当前字符串</param>
+            <param name="darkColor">暗色 二维码像素方块的颜色 一般设置为Color.Black 黑色</param>
+            <param name="lightColor">亮色 二维码的背景色 一般设置为Color.White  白色</param>
+            <param name="pixelsPerModule">生成二维码图片的像素大小,默认为5</param>
+            <param name="level">容错等级
+                <list type="bullet">
+                    <item>
+                        <term>ECCLevel.L: </term>
+                        <description>大约 7% 的错误更正能力</description>
+                    </item>
+                    <item>
+                        <term>ECCLevel.M: </term>
+                        <description>大约 15% 的错误更正能力。</description>
+                    </item>
+                    <item>
+                        <term>ECCLevel.Q: </term>
+                        <description>大约 25% 的错误更正能力。</description>
+                    </item>
+                    <item>
+                        <term>ECCLevel.H: </term>
+                        <description>大约 30% 的错误更正能力。</description>
+                    </item>
+                </list>
+            </param>
+            <param name="drawQuietZones">静止区，位于二维码某一边的空白边界,用来阻止读者获取与正在浏览的二维码无关的信息 即是否绘画二维码的空白边框区域 默认为true</param>
+            <param name="icon">二维码水印图标 默认为NULL ，加上这个二维码中间会显示一个图标</param>
+            <param name="iconSizePercent">水印图标的大小比例 ，可根据自己的喜好设置 </param>
+            <param name="iconBorderWidth">水印图标的边框</param>
+            <param name="iconBackgroundColor">水印图标的背景色</param>
+            <returns>二维码图片</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.IsDataUrl(System.String)">
+            <summary>
+            检查字符串是否是DataUrl字符串
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.FromBase64ToBytes(System.String)">
+            <summary>
+            将Base64字符串转换为字节数组
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:HmExtension.Standard.Extensions.StringExtension.FromBitmap(System.String)">
+            <summary>
+            将DataUrl字符串转换为图片
+            </summary>
+            <param name="value">当前字符串</param>
+            <returns>图片</returns>
+            <exception cref="T:System.ArgumentException">如果字符串不是DataURL则抛出该异常</exception>
+        </member>
+        <member name="T:HmExtension.Standard.utils.ExcelHelper">
+            <summary>
+            Excel帮助类
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ExcelHelper.OutputToExcel(System.Data.DataTable,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ExcelHelper.OutputToExcel(System.Data.DataTable,System.Collections.ArrayList,System.String)" -->
+        <member name="M:HmExtension.Standard.utils.ExcelHelper.GetExcelTables(System.String)">
+            <summary>
+            获取Excel文件数据表列表
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ExcelHelper.InputFromExcel(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ExcelHelper.GetExcelTableColumns(System.String,System.String)" -->
+        <member name="T:HmExtension.Standard.utils.FtpHelper">
+            <summary>
+            FTP客户端操作类
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.FtpHelper.FtpServer">
+            <summary>
+            Ftp服务器ip
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.FtpHelper.Username">
+            <summary>
+            Ftp 指定用户名
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.FtpHelper.Password">
+            <summary>
+            Ftp 指定用户密码
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.#ctor(System.String,System.Int32)">
+            <summary>
+            获取一个匿名登录的ftp客户端
+            </summary>
+            <param name="serverIp">服务器IP地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            获取一个匿名登录的ftp客户端
+            </summary>
+            <param name="serverIp">服务器ip</param>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.Download(System.String,System.String,System.Boolean,System.Action{System.Int32,System.Int32})">
+            <summary>
+            从FTP服务器下载文件，指定本地路径和本地文件名
+            </summary>
+            <param name="remoteFileName">远程文件名</param>
+            <param name="localFileName">保存本地的文件名（包含路径）</param>
+            <param name="ifCredential">是否启用身份验证（false：表示允许用户匿名下载）</param>
+            <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.BrokenDownload(System.String,System.String,System.Boolean,System.Int64,System.Action{System.Int32,System.Int32})">
+            <summary>
+            从FTP服务器下载文件，指定本地路径和本地文件名（支持断点下载）
+            </summary>
+            <param name="remoteFileName">远程文件名</param>
+            <param name="localFileName">保存本地的文件名（包含路径）</param>
+            <param name="ifCredential">是否启用身份验证（false：表示允许用户匿名下载）</param>
+            <param name="size">已下载文件流大小</param>
+            <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.Download(System.String,System.String,System.Boolean,System.Boolean,System.Action{System.Int32,System.Int32})">
+            <summary>
+            从FTP服务器下载文件，指定本地路径和本地文件名
+            </summary>
+            <param name="remoteFileName">远程文件名</param>
+            <param name="localFileName">保存本地的文件名（包含路径）</param>
+            <param name="ifCredential">是否启用身份验证（false：表示允许用户匿名下载）</param>
+            <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
+            <param name="brokenOpen">是否断点下载：true 会在localFileName 找是否存在已经下载的文件，并计算文件流大小</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.UploadFile(System.String,System.String,System.Action{System.Int32,System.Int32})">
+            <summary>
+            上传文件到FTP服务器
+            </summary>
+            <param name="relativePath">相对目录</param>
+            <param name="localFullPathName">本地带有完整路径的文件名</param>
+            <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.UploadBroken(System.String,System.String,System.Action{System.Int32,System.Int32})">
+            <summary>
+            上传文件到FTP服务器(断点续传)
+            </summary>
+            <param name="localFullPath">本地文件全路径名称：C:\Users\JianKunKing\Desktop\IronPython脚本测试工具</param>
+            <param name="remoteFilepath">远程文件所在文件夹路径</param>
+            <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
+            <returns></returns> 
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.RemoveSpaces(System.String)">
+            <summary>
+            去除空格
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.GetFileSize(System.String,System.String)">
+            <summary>
+            获取已上传文件大小
+            </summary>
+            <param name="filePath">文件名称</param>
+            <param name="remoteFilepath">服务器文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.GetFilesDetails(System.String)">
+            <summary>
+            获取当前目录下明细(包含文件和文件夹)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.GetFiles(System.String,System.String)">
+            <summary>
+            获取当前目录下文件列表(仅文件)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.GetDirectories(System.String)">
+            <summary>
+            获取当前目录下所有的文件夹列表(仅文件夹)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.Delete(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.RemoveDirectory(System.String)">
+            <summary>
+            删除文件夹
+            </summary>
+            <param name="dirPath"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.GetFileSize(System.String)">
+            <summary>
+            获取指定文件大小
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.DirectoryExist(System.String)">
+            <summary>
+            判断当前目录下指定的子目录是否存在
+            </summary>
+            <param name="remoteDirPath">指定的目录名</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.FileExist(System.String)">
+            <summary>
+            判断当前目录下指定的文件是否存在
+            </summary>
+            <param name="remoteFileName">远程文件名</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.MakeDir(System.String,System.String)">
+            <summary>
+            创建文件夹
+            </summary>
+            <param name="relativePath">路径</param>
+            <param name="newDir">新建文件夹</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.Rename(System.String,System.String,System.String)">
+            <summary>
+            改名
+            </summary>
+            <param name="relativePath">相对路径</param>
+            <param name="currentFilename"></param>
+            <param name="newFilename"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.FtpHelper.MoveFile(System.String,System.String,System.String)">
+            <summary>
+            移动文件
+            </summary>
+            <param name="relativePath">相对路径</param>
+            <param name="currentFilename"></param>
+            <param name="newDirectory"></param>
+        </member>
+        <member name="T:HmExtension.Standard.utils.HashHelper">
+            <summary>
+            得到随机安全码（哈希加密）。
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.HashHelper.HashEncoding(System.String)" -->
+        <member name="T:HmExtension.Standard.utils.ThumbnailCutMode">
+            <summary>
+            图像裁剪模式
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.utils.ThumbnailCutMode.LockHeight">
+            <summary>
+            锁定高度
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.utils.ThumbnailCutMode.LockWidth">
+            <summary>
+            锁定宽度
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.utils.ThumbnailCutMode.Fixed">
+            <summary>
+            固定宽高
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.utils.ThumbnailCutMode.Cut">
+            <summary>
+            裁剪
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.utils.ImageHelper">
+            <summary>
+            图片处理
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.CutForSquare(System.IO.Stream,System.String,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.CutForCustom(System.IO.Stream,System.String,System.Int32,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.ZoomAuto(System.IO.Stream,System.String,System.Double,System.Double,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.IsWebImage(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.CutImage(System.Drawing.Bitmap,System.Drawing.Rectangle)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.ResizeImage(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.CutAndResize(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.CompressImage(System.String,System.String,System.Int32,System.Int32,System.Boolean)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.CompressImage(System.IO.Stream,System.IO.Stream,System.Int32,System.Int32,System.Boolean)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.MakeThumbnail(System.Drawing.Image,System.String,System.Int32,System.Int32,HmExtension.Standard.utils.ThumbnailCutMode)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.LDPic(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.RePic(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.Relief(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.ResizeImageAsync(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.FilPic(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.RevPicLR(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.RevPicUD(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.Compress(System.Drawing.Image,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.Gray(System.Drawing.Color)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.BWPic(System.Drawing.Bitmap,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.GetFrames(System.Drawing.Image,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.ImageHelper.SaveDataUriAsImageFile(System.String)" -->
+        <member name="T:HmExtension.Standard.utils.IniHelper">
+            <summary>
+            INI文件操作类
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IniHelper.#ctor(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IniHelper.WriteValue(System.String,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IniHelper.ReadValue(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IniHelper.RemoveSection(System.String)" -->
+        <member name="M:HmExtension.Standard.utils.IniHelper.Exists">
+            验证文件是否存在
+        </member>
+        <member name="T:HmExtension.Standard.utils.IpHelper">
+            <summary>
+            IP帮助类
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IpHelper.IsValidIP(System.String)" -->
+        <member name="M:HmExtension.Standard.utils.IpHelper.GetExternalIp">
+            <summary>
+                获取本地外网 IP
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IpHelper.MatchInetAddress(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.IpHelper.MatchInetAddress(System.String,System.Boolean@)" -->
+        <member name="T:HmExtension.Standard.utils.JsHelper">
+            <summary>
+            Js帮助类
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.JsHelper.EvalMethod(System.String,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.JsHelper.V8Method(System.String,System.String,System.String)" -->
+        <member name="T:HmExtension.Standard.utils.LogHelper">
+            <summary>
+            日志帮助类
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.LogHelper.Log(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "T:HmExtension.Standard.utils.FileMergeProgressChangedEventHandler" -->
+        <member name="T:HmExtension.Standard.utils.MultiThreadDownloader">
+            <summary>
+            多线程下载器
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.RangeAllowed">
+            <summary>
+            RangeAllowed
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.TempFileDirectory">
+            <summary>
+            临时文件夹
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.Url">
+            <summary>
+            url地址
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.NumberOfParts">
+            <summary>
+            第几部分
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.TotalBytesReceived">
+            <summary>
+            已接收字节数
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.TotalProgress">
+            <summary>
+            总进度
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.Size">
+            <summary>
+            文件大小
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.TotalSpeedInBytes">
+            <summary>
+            下载速度
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.PartialDownloaderList">
+            <summary>
+            下载块
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.MultiThreadDownloader.FilePath">
+            <summary>
+            文件路径
+            </summary>
+        </member>
+        <member name="E:HmExtension.Standard.utils.MultiThreadDownloader.TotalProgressChanged">
+            <summary>
+            总下载进度更新事件
+            </summary>
+        </member>
+        <member name="E:HmExtension.Standard.utils.MultiThreadDownloader.FileMergeProgressChanged">
+            <summary>
+            文件合并事件
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.#ctor(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            多线程下载管理器
+            </summary>
+            <param name="sourceUrl">下载地址</param>
+            <param name="tempDir">临时文件路金</param>
+            <param name="savePath">保存路金</param>
+            <param name="numOfParts"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            多线程下载管理器
+            </summary>
+            <param name="sourceUrl">下载地址</param>
+            <param name="savePath">保存路</param>
+            <param name="numOfParts">线程数</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.#ctor(System.String,System.Int32)">
+            <summary>
+            多线程下载管理器
+            </summary>
+            <param name="sourceUrl">下载地址</param>
+            <param name="numOfParts"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.WaitOrResumeAll(System.Collections.Generic.List{HmExtension.Standard.utils.PartialDownloader},System.Boolean)">
+            <summary>
+            暂停或继续
+            </summary>
+            <param name="list"></param>
+            <param name="wait"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.BubbleSort(System.Collections.Generic.List{HmExtension.Standard.utils.PartialDownloader})">
+            <summary>
+            冒泡排序
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.SortPDsByFrom(System.Collections.Generic.List{HmExtension.Standard.utils.PartialDownloader})">
+            <summary>
+            Sorts the downloader by From property to merge the parts
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.OrderByRemaining(System.Collections.Generic.List{HmExtension.Standard.utils.PartialDownloader})">
+            <summary>
+            按剩余时间排序
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.GetContentLength(System.String,System.Boolean@,System.String@)">
+            <summary>
+            获取内容长度
+            </summary>
+            <param name="url"></param>
+            <param name="rangeAllowed"></param>
+            <param name="redirectedUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.Pause">
+            <summary>
+            暂停下载
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.Start">
+            <summary>
+            开始下载
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.MultiThreadDownloader.Resume">
+            <summary>
+            唤醒下载
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.utils.PartialDownloader">
+            <summary>
+            部分下载器
+            </summary>
+        </member>
+        <member name="E:HmExtension.Standard.utils.PartialDownloader.DownloadPartCompleted">
+            <summary>
+            这部分完成事件
+            </summary>
+        </member>
+        <member name="E:HmExtension.Standard.utils.PartialDownloader.DownloadPartProgressChanged">
+            <summary>
+            部分下载进度改变事件
+            </summary>
+        </member>
+        <member name="E:HmExtension.Standard.utils.PartialDownloader.DownloadPartStopped">
+            <summary>
+            部分下载停止事件
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.PartialDownloader.#ctor(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            部分块下载
+            </summary>
+            <param name="url"></param>
+            <param name="dir"></param>
+            <param name="fileGuid"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="rangeAllowed"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.PartialDownloader.Start">
+            <summary>
+            启动下载
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.PartialDownloader.Stop">
+            <summary>
+            下载停止
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.PartialDownloader.Wait">
+            <summary>
+            暂停等待下载
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.PartialDownloader.ResumeAfterWait">
+            <summary>
+            稍后唤醒
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.Stopped">
+            <summary>
+            下载已停止
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.Completed">
+            <summary>
+            下载已完成
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.Progress">
+            <summary>
+            下载进度
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.Directory">
+            <summary>
+            下载目录
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.FileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.TotalBytesRead">
+            <summary>
+            已读字节数
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.ContentLength">
+            <summary>
+            内容长度
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.RangeAllowed">
+            <summary>
+            RangeAllowed
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.Url">
+            <summary>
+            url
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.To">
+            <summary>
+            to
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.From">
+            <summary>
+            from
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.CurrentPosition">
+            <summary>
+            当前位置
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.RemainingBytes">
+            <summary>
+            剩余字节数
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.FullPath">
+            <summary>
+            完整路径
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.PartialDownloader.SpeedInBytes">
+            <summary>
+            下载速度
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.utils.ProcessHelper">
+            <summary>
+            进程工具类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.KillProcessByName(System.String)">
+            <summary>
+            根据进程名结束进程 不需要后缀 多个 相同进程名 会被一起结束
+            </summary>
+            <param name="prossName"></param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.CloseProcessByProcessId(System.String,System.Int32)">
+            <summary>
+            根据进程名和进程PID，关闭指定进程 - 进程名不需要带后缀
+            </summary>
+            <param name="prossName">进程名</param>
+            <param name="closePid">需要关闭的进程PID</param>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.GetProcessPorExByProssName(System.String,System.Collections.Generic.List{System.Diagnostics.Process}@)">
+            <summary>
+            根据进程名获得进程Process对象的集合 - 不需要带上进程后缀
+            </summary>
+            <param name="prossName">进程名</param>
+            <param name="pro">进程Process 对象集合</param>
+            <returns>找不到返回 false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.GetPidByHwnd(System.Int32,System.Int32@)">
+            <summary>
+            根据窗口句柄获得进程PID和线程PID
+            </summary>
+            <param name="hwnd">句柄</param>
+            <param name="pid">返回 进程PID</param>
+            <returns>方法的返回值，线程PID，进程PID和线程PID这两个概念不同</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.GetProcessPorByTitle(System.String,System.Diagnostics.Process@)">
+            <summary>
+            根据窗口标题获得进程Process对象
+            </summary>
+            <param name="title">窗口标题</param>
+            <param name="pro">进程Process 对象</param>
+            <returns>找不到返回 false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.FindPidExByTitle(System.String)">
+            <summary>
+            根据窗口标题查找窗口进程PID-返回List
+            </summary>
+            <param name="title">窗口标题</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.GetProcessPid(System.String)">
+            <summary>
+            根据进程名获得进程PID - 不需要带上进程后缀
+            </summary>
+            <param name="prossName">进城名</param>
+            <returns>进城PID 找不到返回 0</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.RunApp(System.String)">
+            <summary>
+            运行一个指定文件或者程序
+            </summary>
+            <param name="path">文件路径</param>
+            <returns>失败返回false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.RunAppByFlag(System.String,System.String)">
+            <summary>
+            运行一个指定文件或者程序可以带上参数
+            </summary>
+            <param name="path">文件路径</param>
+            <param name="flag">附带参数</param>
+            <returns>失败返回false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.GetAppRunPath_ByHandle(System.Int32)">
+            <summary>
+            通过句柄获得进程路径
+            </summary>
+            <param name="hwnd">句柄</param>
+            <returns>返回 进程路径 找不到返回""</returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.ProcessHelper.GetAppRunPath_ByName(System.String)">
+            <summary>
+            通过进程名获得进程路径 不需要后缀
+            </summary>
+            <param name="hwnd">句柄</param>
+            <param name="prossName">进程名</param>
+            <returns>返回 进程路径 找不到返回""</returns>
+        </member>
+        <member name="T:HmExtension.Standard.utils.RsaKey">
+            <summary>
+            RSA密钥对
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.utils.RsaKey.PublicKey">
+            <summary>
+            公钥
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.utils.RsaKey.PrivateKey">
+            <summary>
+            私钥
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.utils.RsaHelper">
+            <summary>
+            RSA加密解密及RSA签名和验证
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.RsaHelper.GenerateRsaKeys">
+            <summary>
+            生成 RSA 公钥和私钥
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSAEncrypt(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSAEncrypt(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSAEncrypt(System.Byte[],System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSAEncrypt(System.Byte[])" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSADecrypt(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSADecrypt(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSADecrypt(System.Byte[],System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.RSADecrypt(System.Byte[])" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.GetHashBytes(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.GetHashString(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.GetHashBytes(System.IO.FileStream)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.GetHashString(System.IO.FileStream)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureBytes(System.Byte[],System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureString(System.Byte[],System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureBytes(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureString(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureDeformatter(System.Byte[],System.String,System.Byte[])" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureDeformatter(System.Byte[],System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureDeformatter(System.String,System.String,System.Byte[])" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.RsaHelper.SignatureDeformatter(System.String,System.String,System.String)" -->
+        <member name="T:HmExtension.Standard.utils.SystemHelper">
+            <summary>
+            系统辅助类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetCpuid">
+            <summary>
+            获得CPU编号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetDiskSerialNumber">
+            <summary>
+            获取硬盘序列号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetDiskSize">
+            <summary>
+            获取硬盘的大小
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetMacAddress">
+            <summary>
+            获取网卡硬件地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetIpAddress">
+            <summary>
+            获取IP地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetUserName">
+            <summary>
+            操作系统的登录用户名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetComputerName">
+            <summary>
+            获取计算机名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetSystemType">
+            <summary>
+            操作系统类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetPhysicalMemory">
+            <summary>
+            物理内存
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetVideoPnpid">
+            <summary>
+            显卡PNPDeviceID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetSoundPnpid">
+            <summary>
+            声卡PNPDeviceID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetCpuVersion">
+            <summary>
+            CPU版本信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetCpuName">
+            <summary>
+            CPU名称信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetCpuManufacturer">
+            <summary>
+            CPU制造厂商
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetBoardManufacturer">
+            <summary>
+            主板制造厂商
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetBoardId">
+            <summary>
+            主板编号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.GetBoardType">
+            <summary>
+            主板型号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.IsInternetState">
+            <summary>
+            判断是否联网
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.ExitWindows">
+            <summary>
+            注销
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.Shutdown">
+            <summary>
+            关机
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.Restart">
+            <summary>
+            重启电脑
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.SystemHelper.ChangeDisplaySettings(System.Int32,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.SystemHelper.IsPort(System.Int32)" -->
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindows98">
+            <summary>
+            判断操作系统是否为Windows98
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindows98Second">
+            <summary>
+            判断操作系统是否为Windows98第二版
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindows2000">
+            <summary>
+            判断操作系统是否为Windows2000
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindowsXP">
+            <summary>
+            判断操作系统是否为WindowsXP
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindows2003">
+            <summary>
+            判断操作系统是否为Windows2003
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindowsVista">
+            <summary>
+            判断操作系统是否为WindowsVista
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsWindows7">
+            <summary>
+            判断操作系统是否为Windows7
+            </summary>
+        </member>
+        <member name="P:HmExtension.Standard.utils.SystemHelper.IsUnix">
+            <summary>
+            判断操作系统是否为Unix
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.SystemHelper.Is64System">
+            <summary>
+            是否是64位 false 为32位
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HmExtension.Standard.utils.TypeUtil">
+            <summary>
+            反射工具类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.GetProperties(System.Type,System.Boolean)">
+            <summary>
+            获取类型的属性(包括父类)
+            </summary>
+            <param name="type">待获取属性的类型</param>
+            <param name="isPrivate">是否包含私有属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.GetFields(System.Type,System.Boolean)">
+            <summary>
+            获取类型的字段(包括父类)
+            </summary>
+            <param name="type">待获取字段的类型</param>
+            <param name="isPrivate">是否包含私有属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.GetProperty(System.Type,System.String)">
+            <summary>
+            获取类型的属性
+            </summary>
+            <param name="type">待获取属性的类型</param>
+            <param name="propertyName">属性名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.GetField(System.Type,System.String)">
+            <summary>
+            获取类型的字段
+            </summary>
+            <param name="type">待获取字段的类型</param>
+            <param name="fieldName">字段名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.IsBaseType(System.Type)">
+            <summary>
+            判断类型是否为基础类型
+            </summary>
+            <param name="type">待检查类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.IsBaseType``1">
+            <summary>
+            判断类型是否为基础类型
+            </summary>
+            <typeparam name="T">待检查类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.IsNullableType(System.Type)">
+            <summary>
+            判断类型是否为可空类型
+            </summary>
+            <param name="type">待检查类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.IsNullableType``1">
+            <summary>
+            判断类型是否为可空类型
+            </summary>
+            <typeparam name="T">待检查类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.HasProperty(System.Type,System.String)">
+            <summary>
+            判断类型是有指定属性
+            </summary>
+            <param name="type">待检查类型</param>
+            <param name="propertyName">属性名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.HasField(System.Type,System.String)">
+            <summary>
+            判断类型是有指定字段
+            </summary>
+            <param name="type">待检查类型</param>
+            <param name="fieldName">字段名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.GetPropertyValue``1(System.Object,System.String)">
+            <summary>
+            获取对象的属性值
+            </summary>
+            <typeparam name="T">属性值类型</typeparam>
+            <param name="obj">待获取属性值对象</param>
+            <param name="propertyName">属性名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.GetFieldValue``1(System.Object,System.String)">
+            <summary>
+            获取对象的字段值
+            </summary>
+            <typeparam name="T">字段值类型</typeparam>
+            <param name="obj">待获取字段值对象</param>
+            <param name="fieldName">字段名称</param>
+            <returns></returns>
+            <exception cref="T:System.InvalidCastException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.SetPropertyValue(System.Object,System.String,System.Object)">
+            <summary>
+            设置对象的属性值
+            </summary>
+            <param name="o">待设置对象</param>
+            <param name="propertyName">属性名称</param>
+            <param name="value">属性值</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:HmExtension.Standard.utils.TypeUtil.SetFieldValue(System.Object,System.String,System.Object)">
+            <summary>
+            设置对象的字段值
+            </summary>
+            <param name="o">待设置对象</param>
+            <param name="fieldName">字段名称</param>
+            <param name="value">字段值</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="T:HmExtension.Standard.utils.HotKeyHelper">
+            <summary>
+            热键辅助类
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.utils.HotKeyHelper.RegisterHotKey(System.IntPtr,System.Int32,HmExtension.Standard.utils.HotKeyHelper.KeyModifiers,HmExtension.Standard.Commons.Keys)">
+            <summary>
+            hook 注册热键
+            </summary>
+            <param name="hWnd">要定义热键的窗口的句柄</param>
+            <param name="id">定义热键ID （不能与其它ID重复）</param>
+            <param name="fsModifiers">标识热键是否在按Alt、Ctrl、Shift、Windows等键时才会生效</param>
+            <param name="vk">组合 热键的内容</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.utils.HotKeyHelper.UnregisterHotKey(System.IntPtr,System.Int32)" -->
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KBDLLHOOKSTRUCT.vkCode">
+            <summary>
+            虚拟按键代码。 代码必须是 1 到 254 范围内的值。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KBDLLHOOKSTRUCT.scanCode">
+            <summary>
+            按键的硬件扫描代码。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KBDLLHOOKSTRUCT.flags">
+            <summary>
+            扩展键标志、事件注入标志、上下文代码和转换状态标志。 此成员指定如下。 应用程序可以使用以下值来测试击键标志。 测试LLKHF_INJECTED (位 4) 将告知是否已注入事件。 如果是，则测试LLKHF_LOWER_IL_INJECTED (位 1) 会告诉你事件是否是从以较低完整性级别运行的进程注入的。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KBDLLHOOKSTRUCT.time">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KBDLLHOOKSTRUCT.dwExtraInfo">
+            <summary>
+            额外信息
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.WindowApi.KeyHook.KeyHookType">
+            <summary>
+            按键钩子类型
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KeyHookType.WH_KEYBOARD">
+            <summary>
+            安装监视击键消息的挂钩过程。 有关详细信息，请参阅 KeyboardProc 挂钩过程。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.KeyHook.KeyHookType.WH_KEYBOARD_LL">
+            <summary>
+            安装用于监视低级别鼠标输入事件的挂钩过程。 有关详细信息，请参阅 LowLevelMouseProc 挂钩过程。
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.WindowApi.MessageHook">
+            <summary>
+            系统消息钩子
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.WindowApi.MouseHook">
+            <summary>
+            鼠标钩子
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.LLMHF_INJECTED">
+            <summary>
+            从任何进程(标志测试事件注入)
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.LLMHF_LOWER_IL_INJECTED">
+            <summary>
+            从以较低完整性级别(标志运行的进程测试事件注入 )
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MouseHookType.WH_MOUSE">
+            <summary>
+            安装监视鼠标消息的挂钩过程。 有关详细信息，请参阅<a href="https://learn.microsoft.com/zh-cn/windows/win32/winmsg/mouseproc">MouseProc</a>挂钩过程。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MouseHookType.WH_MOUSE_LL">
+            <summary>
+            安装用于监视低级别鼠标输入事件的挂钩过程。 有关详细信息，请参阅<a href="https://learn.microsoft.com/zh-cn/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc </a> 挂钩过程。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MouseHookStruct.pt">
+            <summary>
+            光标的 x 和 y 坐标（以屏幕坐标表示）
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MouseHookStruct.hwnd">
+            <summary>
+            窗口的句柄，该窗口将接收与鼠标事件对应的鼠标消息。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MouseHookStruct.wHitTestCode">
+            <summary>
+            命中测试值。 有关命中测试值的列表，请参阅 <a href="https://learn.microsoft.com/zh-cn/windows/win32/inputdev/wm-nchittest">WM_NCHITTEST</a>  消息的说明。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MouseHookStruct.dwExtraInfo">
+            <summary>
+            与消息关联的其他信息。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MsllHookStruct.pt">
+            <summary>
+            光标的 x 和 y 坐标，按 <a href="https://learn.microsoft.com/zh-cn/windows/win32/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">监视器感知</a> 的屏幕坐标。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MsllHookStruct.mouseData">
+            <summary>
+            如果消息 <see cref="F:HmExtension.Standard.WindowsMessage.WM_MOUSEWHEEL">WM_MOUSEWHEEL</see>，则此成员的高序字是滚轮增量。 保留低序字。 正值表示滚轮向前旋转（远离用户）；负值表示滚轮向后旋转（朝向用户）。 一键滚轮定义为 WHEEL_DELTA，即 120。
+            如果消息
+            <see cref="F:HmExtension.Standard.WindowsMessage.WM_XBUTTONDOWN">WM_XBUTTONDOWN</see>、
+            <see cref="F:HmExtension.Standard.WindowsMessage.WM_XBUTTONUP">WM_XBUTTONUP</see>、
+            <see cref="F:HmExtension.Standard.WindowsMessage.WM_XBUTTONDBLCLK">WM_XBUTTONDBLCLK</see>、
+            <see cref="F:HmExtension.Standard.WindowsMessage.WM_NCXBUTTONDOWN">WM_NCXBUTTONDOWN</see>、
+            <see cref="F:HmExtension.Standard.WindowsMessage.WM_NCXBUTTONUP">WM_NCXBUTTONUP</see>或
+            <see cref="F:HmExtension.Standard.WindowsMessage.WM_NCXBUTTONDBLCLK">WM_NCXBUTTONDBLCLK</see>，则高序单词指定按下或释放的 X 按钮，并且保留低序字。 此值可以是以下一个或多个值。 否则，不使用 mouseData 。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MsllHookStruct.flags">
+            <summary>
+            事件注入的标志。 应用程序可以使用以下值来测试标志。 测试<see cref="F:HmExtension.Standard.WindowApi.MouseHook.LLMHF_INJECTED">LLMHF_INJECTED</see> 将告知是否已注入事件。 如果是，则测试<see cref="F:HmExtension.Standard.WindowApi.MouseHook.LLMHF_LOWER_IL_INJECTED">LLMHF_LOWER_IL_INJECTED</see> 将告诉你事件是否是从以较低完整性级别运行的进程注入的。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MsllHookStruct.time">
+            <summary>
+            此消息的时间戳。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowApi.MouseHook.MsllHookStruct.dwExtraInfo">
+            <summary>
+            与消息关联的其他信息。
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.WinApi">
+            <summary>
+            Windows API
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.WinApi.TagMSG">
+            <summary>
+            窗口消息
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WinApi.TagMSG.hwnd">
+            <summary>
+            窗口句柄
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WinApi.TagMSG.message">
+            <summary>
+            消息的标识符。 应用程序只能使用低字;高字由系统保留。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WinApi.TagMSG.wParam">
+            <summary>
+            关于消息的附加信息。 确切含义取决于 消息 成员的值。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WinApi.TagMSG.lParam">
+            <summary>
+            关于消息的附加信息。 确切含义取决于 消息 成员的值。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WinApi.TagMSG.time">
+            <summary>
+            消息的发布时间。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WinApi.TagMSG.pt">
+            <summary>
+            发布消息时的光标位置（以屏幕坐标表示）
+            </summary>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetMessage(HmExtension.Standard.WinApi.TagMSG@,System.Nullable{System.IntPtr},System.Int32,System.Int32)">
+            <summary>
+            窗口消息
+            </summary>
+            <param name="lpMsg">指向 MSG 结构的指针，该结构从线程的消息队列接收消息信息。</param>
+            <param name="hWnd">要检索其消息的窗口的句柄。 窗口必须属于当前线程。
+                如果 hWnd 为 NULL，GetMessage 将检索属于当前线程的任何窗口的消息，以及当前线程的消息队列中 hwnd 值为 NULL 的任何消息， () 看到 MSG 结构。 因此，如果 hWnd 为 NULL，则同时处理窗口消息和线程消息。
+                如果 hWnd 为 -1，则 GetMessage 仅检索当前线程的消息队列中 hwnd 值为 NULL 的消息，即当 hWnd 参数为 NULL) 或 PostThreadMessage 时，PostMessage (发布的线程消息。
+            </param>
+            <param name="wMsgFilterMin">要检索的最低消息值的整数值。 使用 WM_KEYFIRST (0x0100) 指定第一条键盘消息， 或使用WM_MOUSEFIRST (0x0200) 指定第一条鼠标消息。
+            
+            在此处和 wMsgFilterMax 中使用WM_INPUT仅指定WM_INPUT消息。
+            
+            如果 wMsgFilterMin 和 wMsgFilterMax 均为零， 则 GetMessage 将返回所有可用消息 (即不) 执行范围筛选</param>
+            <param name="wMsgFilterMax">要检索的最高消息值的整数值。 使用 WM_KEYLAST 指定最后一条键盘消息， WM_MOUSELAST 指定最后一条鼠标消息。
+            
+            在此处和 wMsgFilterMin 中使用WM_INPUT，仅指定WM_INPUT消息。
+            
+            如果 wMsgFilterMin 和 wMsgFilterMax 均为零， 则 GetMessage 将返回所有可用消息 (即不) 执行范围筛选。
+            </param>
+            <returns>
+            如果函数检索 WM_QUIT以外的消息，则返回值为非零值。
+            如果函数检索 WM_QUIT 消息，则返回值为零。
+            如果出现错误，则返回值为 -1。 例如，如果 hWnd 是无效的窗口句柄或 lpMsg 是无效的指针，则该函数将失败。 要获得更多的错误信息，请调用 GetLastError。</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetAsyncKeyState(HmExtension.Standard.Commons.Keys)">
+            <summary>
+            确定调用函数时键是向上还是向下，以及上次调用 GetAsyncKeyState 后是否按下了该键。
+            </summary>
+            <param name="key">虚拟密钥代码。 有关详细信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SwitchToThisWindow(System.IntPtr,System.Boolean)">
+            <summary>
+            激活窗口
+            </summary>
+            <param name="hWnd"></param>
+            <param name="fAltTab"></param>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetWindowThreadProcessId(System.IntPtr,System.IntPtr@)">
+            <summary>
+            取进程ID
+            </summary>
+            <param name="hWndParent">窗口句柄</param>
+            <param name="intPtr"> 进程id</param>
+            <returns>拥有窗口的线程的标识符</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.ShowWindowAsync(System.IntPtr,HmExtension.Standard.ShowEnum)">
+            <summary>
+             该函数设置由不同线程产生的窗口的显示状态
+             </summary>
+             <param name="hWnd">窗口句柄</param>
+             <param name="cmdShow">s</param>
+             <returns>如果函数原来可见，返回值为非零；如果函数原来被隐藏，返回值为零</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SetForegroundWindow(System.IntPtr)">
+            <summary>
+             该函数将创建指定窗口的线程设置到前台，并且激活该窗口。键盘输入转向该窗口，并为用户改各种可视的记号。
+             系统给创建前台窗口的线程分配的权限稍高于其他线程。 
+            </summary>
+            <param name="hWnd">将被激活并被调入前台的窗口句柄</param>
+            <returns>如果窗口设入了前台，返回值为非零；如果窗口未被设入前台，返回值为零</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SetWindowPos(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            窗口置顶 或设置大小
+            </summary>
+            <param name="hWnd"></param>
+            <param name="hWndInsertAfter"></param>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="cx"></param>
+            <param name="cy"></param>
+            <param name="uFlags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SetWindosActive(System.IntPtr)">
+            <summary>
+            激活窗口 并显示到最前面
+            </summary>
+            <param name="hwnd"></param>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SetWindowsTop(System.IntPtr,System.Boolean)">
+            <summary>
+            窗口置顶
+            </summary>
+            <param name="hWnd">窗口句柄</param>
+            <param name="is_activ">是否置顶 为false 取消置顶</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetAllChildControlsHandle(System.IntPtr)">
+            <summary>
+            枚举窗口 返回窗口句柄 数组
+            </summary>
+            <param name="phwnd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindow(System.String)">
+            <summary>
+            根据标题查找窗体句柄
+            </summary>
+            <param name="title">标题内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetHandle(System.String)">
+            <summary>
+            查找句柄
+            </summary>
+            <param name="IpClassName">类名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetHandle(System.Drawing.Point)">
+            <summary>
+            找到句柄
+            </summary>
+            <param name="p">坐标</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetCursorPosPoint">
+            <summary>
+            获取鼠标位置的坐标
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetMoustPointWindwsHwnd">
+            <summary>
+            得到鼠标指向的窗口句柄
+            </summary>
+            <returns>找不到则返回-1</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindowE(System.IntPtr,System.IntPtr,System.String)">
+            <summary>
+            查找子窗口句柄
+            </summary>
+            <param name="hwndParent">父窗口句柄</param>
+            <param name="hwndChildAfter">前一个同目录级同名窗口句柄</param>
+            <param name="lpszClass">类名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindowExList(System.IntPtr,System.String)">
+            <summary>
+            查找全部子窗口句柄
+            </summary>
+            <param name="hwndParent">父窗口句柄</param>
+            <param name="className">类名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SendMessageA(System.IntPtr,System.String)">
+            <summary>
+            给窗口发送文本内容
+            </summary>
+            <param name="hWnd">句柄</param>
+            <param name="lParam">要发送的内容</param>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.MouseClick(System.IntPtr,System.Int32,System.Int32)">
+            <summary>
+            鼠标点击
+            </summary>
+            <param name="hWnd">句柄</param>
+            <param name="lParam">要发送的内容</param>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetWindowText(System.IntPtr)">
+            <summary>
+            获得窗口内容或标题
+            </summary>
+            <param name="hWnd">句柄</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetWindowRect(System.IntPtr)">
+            <summary>
+            窗口在屏幕位置
+            </summary>
+            <param name="hWnd">句柄</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.ScreenToClient(System.IntPtr,System.Drawing.Rectangle)">
+            <summary>
+            窗口相对屏幕位置转换成父窗口位置
+            </summary>
+            <param name="hWnd"></param>
+            <param name="rect"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetClientRect(System.IntPtr)">
+            <summary>
+            窗口大小
+            </summary>
+            <param name="hWnd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.IsWindow(System.IntPtr)">
+            =====================================================================  
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.IsWindow(System.Int32)">
+            <summary>
+            判断窗口是否存在
+            </summary>
+            <param name="Hwnd">窗口句柄</param>
+            <returns>存在返回 true 不存在返回 false</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.SetWindowText(System.Int32,System.String)">
+            <summary>
+            设置窗口标题
+            </summary>
+            <param name="Hwnd">窗口句柄</param>
+            <param name="newtext">新标题</param>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetForeGroundWindow">
+            <summary>
+            获得顶层窗口
+            </summary>
+            <returns>返回 窗口句柄</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetWindowState(System.Int32,System.Int32)">
+            <summary>
+            得到窗口状态
+            </summary>
+            <param name="Hwnd">窗口句柄</param>
+            <param name="flag">
+            操作方式
+            1：判断窗口是否最小化
+            2：判断窗口是否最大化
+            3：判断窗口是否激活
+            </param>
+            <returns>满足条件返回 true</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.GetChild_Host(System.Int32)">
+            <summary>
+            得到窗口上一级窗口的句柄
+            </summary>
+            <param name="ChildHwnd">子窗口句柄</param>
+            <returns> 返回 窗口句柄 找不到返回 0</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.WinApi.GetClassName(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.WinApi.GetClassName(System.IntPtr)" -->
+        <member name="M:HmExtension.Standard.WinApi.FindPointWindow(System.Int32,System.Int32)">
+            <summary>
+            得到指定坐标的窗口句柄
+            </summary>
+            <param name="x">X坐标</param>
+            <param name="y">Y坐标</param>
+            <returns>找不到返回 0</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.WinApi.FindWindowHwnd(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:HmExtension.Standard.WinApi.GetAllDesktopWindows" -->
+        <member name="M:HmExtension.Standard.WinApi.EnumWindow(System.String,System.String)">
+            <summary>
+            塞选方法 - 返回满足条件的句柄集合
+            </summary>
+            <param name="textName">窗口标题 - 为空不匹配标题( 模糊匹配，不区分大小写)</param>
+            <param name="textClass">窗口类名 - 为空不匹配类名( 模糊匹配，不区分大小写)</param>
+            <returns></returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindow_ByTitle(System.String)">
+            <summary>
+            根据窗口标题模糊查找窗口句柄
+            </summary>
+            <param name="title">窗口标题</param>
+            <returns>返回 窗口句柄 找不到返回 0</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindowEx_ByTitle(System.String)">
+            <summary>
+            根据窗口标题模糊查找符合条件的所有窗口句柄
+            </summary>
+            <param name="title">窗口标题关键字</param>
+            <returns>返回 窗口句柄 多个句柄以"|" 隔开，找不到返回""</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindow_ByProcessName(System.String)">
+            <summary>
+            根据进程名获得窗口句柄 - 不需要带上进程后缀
+            </summary>
+            <param name="ProssName">进程名</param>
+            <returns>窗口句柄 找不到返回 0</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.FindWindowEx_ByProcessName(System.String)">
+            <summary>
+            根据进程名获得窗口句柄 - 不需要带上进程后缀
+            </summary>
+            <param name="ProssName">进程名</param>
+            <returns>窗口句柄 多个用"|"隔开 找不到返回 ""</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.MoveWindow(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            不改变尺寸移动窗口到指定位置
+            </summary>
+            <param name="Hwnd">窗口句柄</param>
+            <param name="X">目的地左上角X</param>
+            <param name="Y">目的地左上角Y</param>
+            <returns>移动成功返回 true</returns>
+        </member>
+        <member name="M:HmExtension.Standard.WinApi.MoveWindow(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            改变尺寸移动窗口到指定位置
+            </summary>
+            <param name="Hwnd">窗口句柄</param>
+            <param name="X">目的地左上角X</param>
+            <param name="Y">目的地左上角Y</param>
+            <param name="Width">新宽度</param>
+            <param name="Height">新高度</param>
+            <returns>移动成功返回 true</returns>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_KEYDOWN">
+            <summary>
+            按下一个键 
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_KEYUP">
+            <summary>
+            释放一个键 
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_SYSKEYDOWN">
+            <summary>
+            当用户按住ALT键同时按下其它键时提交此消息给拥有焦点的窗口； 
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_SYSKEYUP">
+            <summary>
+            当用户释放一个键同时ALT 键还按着时提交此消息给拥有焦点的窗口 
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_XBUTTONDOWN">
+            <summary>
+            当光标位于窗口工作区中并且用户按下第一个或第二个 X 按钮时发布。 如果未捕获鼠标，则消息将发布到光标下方的窗口。 否则，消息将发布到捕获了鼠标的窗口。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_XBUTTONUP">
+            <summary>
+            当光标位于窗口工作区中并且用户释放第一个或第二个 X 按钮时发布。 如果未捕获鼠标，则消息将发布到光标下方的窗口。 否则，消息将发布到捕获了鼠标的窗口。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_XBUTTONDBLCLK">
+            <summary>
+            当光标位于窗口客户端区中并且用户双击第一个或第二个 X 按钮时发布。 如果未捕获鼠标，则消息将发布到光标下方的窗口。 否则，消息将发布到捕获了鼠标的窗口。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_NCXBUTTONDOWN">
+             <summary>
+            当光标位于窗口非工作区中并且用户按下第一个或第二个 X 按钮时发布。 此消息将发布到包含光标的窗口。 如果窗口捕获了鼠标，则不会发布此消息。
+             </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_NCXBUTTONUP">
+            <summary>
+            当光标位于窗口非工作区中并且用户释放第一个或第二个 X 按钮时发布。 此消息将发布到包含光标的窗口。 如果窗口捕获了鼠标，则不会发布此消息。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.WindowsMessage.WM_NCXBUTTONDBLCLK">
+            <summary>
+            当光标位于窗口非工作区中并且用户双击第一个或第二个 X 按钮时发布。 此消息将发布到包含光标的窗口。 如果窗口捕获了鼠标，则不会发布此消息。
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.MessageKey">
+            <summary>
+            消息键
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_CONTROL">
+            <summary>
+            按下了 CTRL 键。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_LBUTTON">
+            <summary>
+            按下了鼠标左键。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_MBUTTON">
+            <summary>
+            按下了鼠标中键。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_RBUTTON">
+            <summary>
+            按下了鼠标右键。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_SHIFT">
+            <summary>
+            按下了 SHIFT 键。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_XBUTTON1">
+            <summary>
+            按下了第一个 X 按钮。(通常是鼠标上的第四个按钮)
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MessageKey.MK_XBUTTON2">
+            <summary>
+            按下了第二个 X 按钮。(通常是鼠标上的第五个按钮)
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.MouseKey">
+            <summary>
+            鼠标键
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MouseKey.XBUTTON1">
+            <summary>
+            单击了第一个 X 按钮。(通常是鼠标上的第四个按钮)
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.MouseKey.XBUTTON2">
+            <summary>
+            单击了第二个 X 按钮。(通常是鼠标上的第五个按钮)
+            </summary>
+        </member>
+        <member name="T:HmExtension.Standard.HookType">
+            <summary>
+            钩子类型
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.HookType.WH_KEYBOARD">
+            <summary>
+            安装监视击键消息的挂钩过程。 有关详细信息，请参阅 KeyboardProc 挂钩过程。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.HookType.WH_MOUSE">
+            <summary>
+            安装监视鼠标消息的挂钩过程。 有关详细信息，请参阅 MouseProc 挂钩过程。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.HookType.WH_KEYBOARD_LL">
+            <summary>
+            安装监视低级别键盘输入事件的挂钩过程。 有关详细信息，请参阅 LowLevelKeyboardProc 挂钩过程。
+            </summary>
+        </member>
+        <member name="F:HmExtension.Standard.HookType.WH_MOUSE_LL">
+            <summary>
+            安装用于监视低级别鼠标输入事件的挂钩过程。 有关详细信息，请参阅 LowLevelMouseProc 挂钩过程。
+            </summary>
+        </member>
+    </members>
+</doc>

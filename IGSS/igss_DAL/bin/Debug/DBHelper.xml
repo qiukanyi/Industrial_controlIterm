@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DBHelper</name>
+    </assembly>
+    <members>
+        <member name="T:Helper.DBHelper">
+            <summary>
+            数据库操作类
+            </summary>
+        </member>
+        <member name="E:Helper.DBHelper.OnPrintSql">
+            <summary>
+            打印SQL事件,<see cref="P:Helper.DBHelper.IsPrintSql"/> 为True时可用
+            </summary>
+        </member>
+        <member name="E:Helper.DBHelper.OnPrintParameters">
+            <summary>
+            打印参数事件,<see cref="P:Helper.DBHelper.IsPrintParameters"/>为True时可用
+            </summary>
+        </member>
+        <member name="E:Helper.DBHelper.OnPrintResult">
+            <summary>
+            打印结果事件,<see cref="P:Helper.DBHelper.IsPrintResult"/>为True时可用
+            </summary>
+        </member>
+        <member name="P:Helper.DBHelper.IsPrintSql">
+            <summary>
+            是否打印SQL
+            </summary>
+        </member>
+        <member name="P:Helper.DBHelper.IsPrintParameters">
+            <summary>
+            是否打印参数
+            </summary>
+        </member>
+        <member name="P:Helper.DBHelper.IsPrintResult">
+            <summary>
+            是否打印结果
+            </summary>
+        </member>
+        <member name="M:Helper.DBHelper.#ctor(System.Func{System.Data.Common.DbConnection},System.Func{System.String,System.Object,System.Data.Common.DbParameter})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="connectionFactory"></param>
+            <param name="parameterFactory">参数对象创建工厂,可空</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Helper.DBHelper.GetConnection(System.Boolean)">
+            <summary>
+            获得数据库连接对象
+            </summary>
+            <param name="autoConnected">是否自动连接数据库</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteNonQuery(System.Data.Common.DbConnection,System.String,System.Object)">
+             <summary>
+             执行非查询语句
+             <example>
+            var user = new UserInfo
+             {
+                 Username = "admin",
+                 Password = "123"
+             };
+             helper.IsPrintSql = true;
+             helper.IsPrintParameters = true;
+             helper.IsPrintResult = true;
+             // 传对象
+             "传对象".Println();
+             helper.ExecuteNonQuery("insert into user_info(username,password) values(@Username,@Password)", user);
+             
+             // 传字典
+             "传字典".Println();
+             var dict = new Dictionary&lt;string, object&gt;
+             {
+                 { "Username", "root" },
+                 { "Password", "root" }
+             };
+             helper.ExecuteNonQuery("insert into user_info(username,password) values(@Username,@Password)", dict);
+             
+             </example>
+             </summary>
+             <param name="connection">数据库连接对象</param>
+             <param name="sql">sql语句</param>
+             <param name="parameter">
+             简化参数对象,支持普通对象和字典,如果是普通对象,对象的属性名作为参数名,如:
+             select * from user_info where id = @Id => 其中参数为@Id,那么在对象中的属性名为Id,字典中的Key也为Id
+             </param>
+             <returns></returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteNonQuery(System.String,System.Object)">
+             <summary>
+             执行非查询语句
+             <example>
+            var user = new UserInfo
+             {
+                 Username = "admin",
+                 Password = "123"
+             };
+             helper.IsPrintSql = true;
+             helper.IsPrintParameters = true;
+             helper.IsPrintResult = true;
+             // 传对象
+             "传对象".Println();
+             helper.ExecuteNonQuery("insert into user_info(username,password) values(@Username,@Password)", user);
+             
+             // 传字典
+             "传字典".Println();
+             var dict = new Dictionary&lt;string, object&gt;
+             {
+                 { "Username", "root" },
+                 { "Password", "root" }
+             };
+             helper.ExecuteNonQuery("insert into user_info(username,password) values(@Username,@Password)", dict);
+             
+             </example>
+             </summary>
+             <param name="sql">sql语句</param>
+             <param name="parameter">
+             简化参数对象,支持普通对象和字典,如果是普通对象,对象的属性名作为参数名,如:
+             select * from user_info where id = @Id => 其中参数为@Id,那么在对象中的属性名为Id,字典中的Key也为Id
+             </param>
+             <returns></returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteNonQuery(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行非查询SQL语句
+            </summary>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">SQL参数</param>
+            <returns>受影响行</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteNonQuery(System.Data.Common.DbConnection,System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行非查询SQL语句
+            </summary>
+            <param name="connection">数据库连接对象</param>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">SQL参数</param>
+            <returns>受影响行</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteQuery``1(System.String,System.Func{System.Data.DataTable,``0},System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句
+            </summary>
+            <typeparam name="T">返回结果类型</typeparam>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteQuery``1(System.String,System.Func{System.Data.DataTable,``0},System.Object)">
+            <summary>
+            执行查询SQL语句
+            </summary>
+            <typeparam name="T">返回结果类型</typeparam>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameter">简化参数对象,支持普通对象和字典,如果是普通对象,对象的属性名作为参数名,如:
+             select * from user_info where id = @Id => 其中参数为@Id,那么在对象中的属性名为Id,字典中的Key也为Id
+             </param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteQuery``1(System.Data.Common.DbConnection,System.String,System.Func{System.Data.DataTable,``0},System.Object)">
+            <summary>
+            执行查询SQL语句
+            </summary>
+            <typeparam name="T">返回结果类型</typeparam>
+            <param name="connection">数据库连接对象</param>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameter">简化参数对象,支持普通对象和字典,如果是普通对象,对象的属性名作为参数名,如:
+             select * from user_info where id = @Id => 其中参数为@Id,那么在对象中的属性名为Id,字典中的Key也为Id
+             </param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteQuery``1(System.Data.Common.DbConnection,System.String,System.Func{System.Data.DataTable,``0},System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句
+            </summary>
+            <typeparam name="T">返回结果类型</typeparam>
+            <param name="connection">数据库连接对象</param>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteQuery``1(System.Data.Common.DbConnection,System.String,System.Func{System.Data.DataRow,``0},System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句,返回List
+            </summary>
+            <typeparam name="T">返回结果类型</typeparam>
+            <param name="connection">数据库连接对象</param>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteQuery``1(System.String,System.Func{System.Data.DataRow,``0},System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句,返回List
+            </summary>
+            <typeparam name="T">返回结果类型</typeparam>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteScalar``1(System.Data.Common.DbConnection,System.String,System.Func{System.Object,``0},System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句,返回第一行第一列
+            </summary>
+            <typeparam name="T">数据类型</typeparam>
+            <param name="connection">数据库连接对象</param>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteScalar``1(System.String,System.Func{System.Object,``0},System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句,返回第一行第一列
+            </summary>
+            <typeparam name="T">数据类型</typeparam>
+            <param name="sql">SQL语句</param>
+            <param name="resultHandler">结果处理委托</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteScalar``1(System.Data.Common.DbConnection,System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句,返回第一行第一列
+            </summary>
+            <typeparam name="T">数据类型</typeparam>
+            <param name="connection">数据库连接对象</param>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteScalar``1(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询SQL语句,返回第一行第一列
+            </summary>
+            <typeparam name="T">数据类型</typeparam>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数列表</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:Helper.DBHelper.ExecuteTransaction(System.Action{System.Data.Common.DbConnection,System.Data.Common.DbTransaction})">
+            <summary>
+            执行事务
+            </summary>
+            <param name="queryHandler">
+            事务处理范围,在此范围内必须调用带有<see cref="T:System.Data.Common.DbConnection"/>参数的方法,如:
+            <list type="list">
+            <item><see cref="M:Helper.DBHelper.ExecuteNonQuery(System.Data.Common.DbConnection,System.String,System.Data.Common.DbParameter[])"/></item>
+            <item><see cref="M:Helper.DBHelper.ExecuteQuery``1(System.Data.Common.DbConnection,System.String,System.Func{System.Data.DataTable,``0},System.Data.Common.DbParameter[])"/></item>
+            <item><see cref="M:Helper.DBHelper.ExecuteScalar``1(System.Data.Common.DbConnection,System.String,System.Func{System.Object,``0},System.Data.Common.DbParameter[])"/></item>
+            <item><see cref="M:Helper.DBHelper.ExecuteScalar``1(System.Data.Common.DbConnection,System.String,System.Data.Common.DbParameter[])"/></item>
+            <item><see cref="M:Helper.DBHelper.ExecuteQuery``1(System.Data.Common.DbConnection,System.String,System.Func{System.Data.DataRow,``0},System.Data.Common.DbParameter[])"/></item>
+            </list>
+            </param>
+        </member>
+        <member name="M:Helper.DBHelper.InsertSelective(System.Object)">
+            <summary>
+            将对象插入到数据库中,该方法需要满足以下条件才可使用:
+            <list type="table">
+                <listheader>
+                    <term>类别</term>
+                    <description>内容</description>
+                </listheader>
+                <item>
+                    <term>类名</term>
+                    <description>
+                        满足以下条件之一:
+                        <list type="table">
+                            <item>
+                                <term>1</term>
+                                <description>类名与表名一致</description>
+                            </item>
+                            <item>
+                                <term>2</term>
+                                <description>类名进行下划线命名法转换后与表名一致,如: UserInfo(类名)=> user_info(表名)</description>
+                            </item>
+                        </list>
+                    </description>
+                </item>
+                <item>
+                    <term>属性</term>
+                    <description>
+                        满足以下条件之一:
+                        <list type="table">
+                            <item>
+                                <term>1</term>
+                                <description>属性名与字段名一致</description>
+                            </item>
+                            <item>
+                                <term>2</term>
+                                <description>属性名进行下划线命名法转换后与字段名一致,如: UserName(属性名)=> user_name(字段名)</description>
+                            </item>
+                        </list>
+                    </description>
+                </item>
+            </list>
+            </summary>
+            <param name="obj">待插入对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.DBHelper.InsertSelective(System.Data.Common.DbConnection,System.Object)">
+            <summary>
+            将对象插入到数据库中,该方法需要满足以下条件才可使用:
+            <list type="table">
+                <listheader>
+                    <term>类别</term>
+                    <description>内容</description>
+                </listheader>
+                <item>
+                    <term>类名</term>
+                    <description>
+                        满足以下条件之一:
+                        <list type="table">
+                            <item>
+                                <term>1</term>
+                                <description>类名与表名一致</description>
+                            </item>
+                            <item>
+                                <term>2</term>
+                                <description>类名进行下划线命名法转换后与表名一致,如: UserInfo(类名)=> user_info(表名)</description>
+                            </item>
+                        </list>
+                    </description>
+                </item>
+                <item>
+                    <term>属性</term>
+                    <description>
+                        满足以下条件之一:
+                        <list type="table">
+                            <item>
+                                <term>1</term>
+                                <description>属性名与字段名一致</description>
+                            </item>
+                            <item>
+                                <term>2</term>
+                                <description>属性名进行下划线命名法转换后与字段名一致,如: UserName(属性名)=> user_name(字段名)</description>
+                            </item>
+                        </list>
+                    </description>
+                </item>
+            </list>
+            </summary>
+            <param name="connection">数据库连接对象</param>
+            <param name="obj">待插入对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Helper.SqlBuilder">
+            <summary>
+            SQL构建器
+            </summary>
+            <example>
+            var tb = SqlBuilder.CreateBuilder("user_info");
+            // 指定要查询的列
+            // 方式1 =&gt; select id, username from user_info
+            //tb.Column().Add("id", "username");
+            // 方式2 =&gt; select id,username from user_info
+            //tb.Select("id", "username");
+            // 方式3 =&gt; select * from user_info
+            //tb.Select("*"); // 或不指定
+            // 指定查询条件
+            var whereBuild = tb.Where();
+            // 方式1
+            whereBuild.And("id", "=", 1);
+            // 方式2
+            string username = "admin";
+            // 仅当username不为空时才添加查询条件
+            whereBuild.And(!string.IsNullOrWhiteSpace(username),"username", "=", "admin");
+            // 方式3
+            var condition = whereBuild.And();
+            condition.And("password", "=", 1);
+            condition.Or("username", "like", "a%");
+            /// 指定排序
+            tb.OrderBy("id", OrderType.ASC);
+            // 指定分组
+            tb.GroupBy("id");
+            // 指定分组条件
+            var having = tb.Having();
+            having.And("id", "&gt;", 1);
+            // 生成查询SQL语句
+            "查询SQL语句".Println("===============", "===============");
+            tb.ToSelect(out var p).Println("SQL ");
+            p.ToList().ForEach(x =&gt; x.Println());
+            
+            // 生成统计SQL语句
+            "统计SQL语句".Println("===============", "===============");
+            tb.ToCount(out var p2).Println("SQL ");
+            p2.ToList().ForEach(x =&gt; x.Println());
+            </example>
+            <example>
+            // 生成插入SQL语句
+            "插入SQL语句".Println("===============", "===============");
+            var tb2 = SqlBuilder.CreateBuilder("user_info");
+            tb2.Insert("id", 1);
+            tb2.Insert("username", "admin");
+            tb2.ToInsert(out var p3).Println("SQL ");
+            p3.ToList().ForEach(x =&gt; x.Println());
+            </example>
+            <example>
+            // 生成更新SQL语句
+            "更新SQL语句".Println("===============", "===============");
+            var tb3 = SqlBuilder.CreateBuilder("user_info");
+            tb3.Set("username", "admin");
+            tb3.Set("password", "123456");
+            tb3.Where().And("id", "=", 1);
+            tb3.ToUpdate(out var p4).Println("SQL ");
+            p4.ToList().ForEach(x =&gt; x.Println());
+            </example>
+            <example>
+            // 生成删除SQL语句
+            "删除SQL语句".Println("===============", "===============");
+            var tb4 = SqlBuilder.CreateBuilder("user_info");
+            tb4.Where().And("id", "=", 1);
+            tb4.ToDelete(out var p5).Println("SQL ");
+            Console.ReadKey();
+            </example>
+        </member>
+        <member name="M:Helper.TableBuilder.Join(System.String,System.String,System.String,Helper.JoinType)">
+            <summary>
+            添加表连接
+            </summary>
+            <param name="table">从表名称</param>
+            <param name="columnLeft">主表列名</param>
+            <param name="columnRight">从表列名</param>
+            <param name="joinType">连接类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.TableBuilder.ToInsert(System.Collections.Generic.Dictionary{System.String,System.Object}@,System.Boolean)">
+            <summary>
+            生成新增SQL
+            </summary>
+            <param name="parameters"></param>
+            <param name="isPropertyName">生成的参数名称是否不带@前缀,默认为false</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.WhereBuild.Add(System.Boolean,System.String,System.String,System.Object)">
+            <summary>
+            添加条件
+            </summary>
+            <param name="condition">条件验证,只有值为true时,条件才会真正添加到SQL中参与过滤</param>
+            <param name="column">列名</param>
+            <param name="operator">操作符</param>
+            <param name="value">值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.WhereBuild.Add(System.Boolean,Helper.Condition)">
+            <summary>
+            添加条件
+            </summary>
+            <param name="cond">条件验证,只有值为true时,条件才会真正添加到SQL中参与过滤</param>
+            <param name="condition">条件对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

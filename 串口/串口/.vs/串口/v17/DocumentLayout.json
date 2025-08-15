@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|d:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|solutionrelative:\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|d:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|solutionrelative:\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|solutionrelative:\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\alarmhelper .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|solutionrelative:\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\alarmhelper .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\loopmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8458B16-3C55-4EF2-96D9-C76F3E3743FB}|\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177.csproj|solutionrelative:\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\loopmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs",
+              "RelativeDocumentMoniker": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs",
+              "RelativeToolTip": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAkwLgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:49:25.817Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Program.cs",
+              "RelativeDocumentMoniker": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Program.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Program.cs",
+              "RelativeToolTip": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T09:49:01.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlarmHelper .cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\AlarmHelper .cs",
+              "RelativeDocumentMoniker": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\AlarmHelper .cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\AlarmHelper .cs",
+              "RelativeToolTip": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\AlarmHelper .cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAYwIoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T02:49:59.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs",
+              "RelativeDocumentMoniker": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:43:08.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loopmod.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Loopmod.cs",
+              "RelativeDocumentMoniker": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Loopmod.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u4E32\u53E3\\\u4E32\u53E3\\\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Loopmod.cs",
+              "RelativeToolTip": "\u62A5\u8B66\u5668\u8C03\u8BD5\u5DE5\u5177\\Loopmod.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T10:37:48.107Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

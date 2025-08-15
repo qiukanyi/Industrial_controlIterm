@@ -1,0 +1,9 @@
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\bin\Debug\支付宝支付.exe.config
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\bin\Debug\支付宝支付.exe
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\bin\Debug\支付宝支付.pdb
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\obj\Debug\支付宝支付.csproj.AssemblyReference.cache
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\obj\Debug\支付宝支付.Properties.Resources.resources
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\obj\Debug\支付宝支付.csproj.GenerateResource.cache
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\obj\Debug\支付宝支付.csproj.CoreCompileInputs.cache
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\obj\Debug\支付宝支付.exe
+E:\新建文件夹 (4)\新建文件夹\串口\支付宝支付\obj\Debug\支付宝支付.pdb

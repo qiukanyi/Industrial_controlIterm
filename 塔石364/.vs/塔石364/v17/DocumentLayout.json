@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|d:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\opcdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|solutionrelative:opcdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\opcdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|solutionrelative:opcdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\opcdemo\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|solutionrelative:opcdemo\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\opcdemo\\opchelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD93E922-09B0-42A9-AA41-090E5C02513E}|OPCDemo\\OPCDemo.csproj|solutionrelative:opcdemo\\opchelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpcHelper.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\OpcHelper.cs",
+              "RelativeDocumentMoniker": "OPCDemo\\OpcHelper.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\OpcHelper.cs",
+              "RelativeToolTip": "OPCDemo\\OpcHelper.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T08:56:30.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "OPCDemo\\Properties\\Resources.resx",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\Properties\\Resources.resx",
+              "RelativeToolTip": "OPCDemo\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-22T08:10:46.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\Form1.cs",
+              "RelativeDocumentMoniker": "OPCDemo\\Form1.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\Form1.cs*",
+              "RelativeToolTip": "OPCDemo\\Form1.cs*",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAiwNQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:15:55.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\Form1.cs",
+              "RelativeDocumentMoniker": "OPCDemo\\Form1.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u5854\u77F3364\\OPCDemo\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "OPCDemo\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:08:47.834Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

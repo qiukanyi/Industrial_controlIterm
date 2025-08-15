@@ -1,0 +1,94 @@
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\MqttDemo.exe.config
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\MqttDemo.exe
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\MqttDemo.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\AntdUI.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\HmExtension.Commons.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\HmExtension.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\MQTTnet.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\QRCoder.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Buffers.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Memory.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Numerics.Vectors.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\V8.Net.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\zxing.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\zxing.presentation.dll
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\AntdUI.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\HmExtension.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\HmExtension.Commons.pdb
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\MQTTnet.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Buffers.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Memory.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Numerics.Vectors.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\zxing.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\bin\Debug\zxing.presentation.xml
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.AssemblyReference.cache
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.Form1.resources
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.Properties.Resources.resources
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.GenerateResource.cache
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.CoreCompileInputs.cache
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.Up2Date
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.exe
+D:\Visual Studio\二阶段课程\11Day 串口服务器  解决方案\串口服务器\MqttDemo\obj\Debug\MqttDemo.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\MqttDemo.exe.config
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\MqttDemo.exe
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\MqttDemo.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\AntdUI.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\HmExtension.Commons.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\HmExtension.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\MQTTnet.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Newtonsoft.Json.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\QRCoder.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Buffers.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Memory.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Numerics.Vectors.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\V8.Net.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\zxing.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\zxing.presentation.dll
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\AntdUI.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\HmExtension.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\HmExtension.Commons.pdb
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\MQTTnet.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\Newtonsoft.Json.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Buffers.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Memory.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Numerics.Vectors.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\zxing.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\bin\Debug\zxing.presentation.xml
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.AssemblyReference.cache
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.Form1.resources
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.Properties.Resources.resources
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.GenerateResource.cache
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.CoreCompileInputs.cache
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.csproj.Up2Date
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.exe
+D:\2024年上半年作业\工控作业\串口服务器\串口服务器\MqttDemo\obj\Debug\MqttDemo.pdb

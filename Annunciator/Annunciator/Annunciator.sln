@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annunciator", "Annunciator.csproj", "{A99AC90E-EF0E-4F4F-8842-17945DC6BEF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A99AC90E-EF0E-4F4F-8842-17945DC6BEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99AC90E-EF0E-4F4F-8842-17945DC6BEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99AC90E-EF0E-4F4F-8842-17945DC6BEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99AC90E-EF0E-4F4F-8842-17945DC6BEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {506C3FBD-21F2-4E5D-B097-DB8F12FBAD34}
+	EndGlobalSection
+EndGlobal

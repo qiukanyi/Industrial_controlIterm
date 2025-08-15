@@ -1,0 +1,10 @@
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\bin\Debug\modbus协议.exe.config
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\bin\Debug\modbus协议.exe
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\bin\Debug\modbus协议.pdb
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.csproj.AssemblyReference.cache
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.Form1.resources
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.Properties.Resources.resources
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.csproj.GenerateResource.cache
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.csproj.CoreCompileInputs.cache
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.exe
+D:\2024年上半年作业\工控作业\Solution1\modbus协议\obj\Debug\modbus协议.pdb

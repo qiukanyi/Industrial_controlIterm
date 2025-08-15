@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|d:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\alarm system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|solutionrelative:alarm system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\alarm system\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|solutionrelative:alarm system\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\alarm system\\alarmhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|solutionrelative:alarm system\\alarmhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\alarm system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E66C538-F1F9-4DB3-B61C-4D961BA76226}|Alarm system\\Alarm system.csproj|solutionrelative:alarm system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlarmHelper.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\AlarmHelper.cs",
+              "RelativeDocumentMoniker": "Alarm system\\AlarmHelper.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\AlarmHelper.cs",
+              "RelativeToolTip": "Alarm system\\AlarmHelper.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T14:09:16.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sensor.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\sensor.cs",
+              "RelativeDocumentMoniker": "Alarm system\\sensor.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\sensor.cs",
+              "RelativeToolTip": "Alarm system\\sensor.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:46:16.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\Form1.cs",
+              "RelativeDocumentMoniker": "Alarm system\\Form1.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\Form1.cs",
+              "RelativeToolTip": "Alarm system\\Form1.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:42:34.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\Form1.cs",
+              "RelativeDocumentMoniker": "Alarm system\\Form1.cs",
+              "ToolTip": "D:\\2024\u5E74\u4E0A\u534A\u5E74\u4F5C\u4E1A\\\u5DE5\u63A7\u4F5C\u4E1A\\\u62A5\u8B66\u7CFB\u7EDF\\Alarm system\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Alarm system\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:39:34.082Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
